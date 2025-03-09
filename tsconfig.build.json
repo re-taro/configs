@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"checkJs": false,
+		"composite": true,
+		"declarationMap": true,
+		"isolatedDeclarations": true,
+		"lib": ["ESNext"],
+		"module": "NodeNext",
+		"outDir": "dist",
+		"rootDir": "src",
+		"sourceMap": true,
+		"target": "ES2022"
+	},
+	"extends": "./tsconfig.base.json",
+	"include": ["src"]
+}
