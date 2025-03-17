@@ -1,5 +1,5 @@
-import type { Config } from '../types.js';
 import { req } from '../utils.js';
+import type { Config } from '../types.js';
 
 export const jsdoc = (): Config => {
 	return {

@@ -1,6 +1,13 @@
-import type { Config, OptionsIgnores } from '../types.js';
+import type { Config } from '../types.js';
 
 const DEFAULT_IGNORES = ['**/package-lock.json', '**/pnpm-lock.yaml', '**/.yarn/**'];
+
+export interface OptionsIgnores {
+	/**
+	 * Ignore files.
+	 */
+	ignoreFiles?: string[];
+}
 
 export const ignores = (options: OptionsIgnores = {}): Config => {
 	const { ignoreFiles = [] } = options;

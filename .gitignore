@@ -1,4 +1,5 @@
 node_modules/
+src/eslint/types/gens/
 *.tsbuildinfo
 .eslintcache
 dist

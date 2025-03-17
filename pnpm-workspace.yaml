@@ -1,0 +1,3 @@
+saveExact: true
+onlyBuiltDependencies:
+  - esbuild
