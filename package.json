@@ -144,7 +144,7 @@
 		"@eslint/markdown": "6.3.0",
 		"@re-taro/configs": "file:.",
 		"@types/eslint-plugin-jsx-a11y": "6.10.0",
-		"@types/node": "22.13.17",
+		"@types/node": "22.14.0",
 		"@typescript-eslint/parser": "8.26.0",
 		"@vitest/eslint-plugin": "1.1.39",
 		"eslint": "9.22.0",
