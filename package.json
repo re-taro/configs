@@ -146,7 +146,7 @@
 		"@types/eslint-plugin-jsx-a11y": "6.10.0",
 		"@types/node": "22.13.17",
 		"@typescript-eslint/parser": "8.26.0",
-		"@vitest/eslint-plugin": "1.1.37",
+		"@vitest/eslint-plugin": "1.1.39",
 		"eslint": "9.22.0",
 		"eslint-config-flat-gitignore": "2.1.0",
 		"eslint-config-prettier": "10.1.1",
