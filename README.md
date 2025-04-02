@@ -14,7 +14,6 @@ pnpm add -D @re-taro/configs
 import { re_taro } from '@re-taro/configs/eslint';
 
 export default re_taro();
-
 ```
 
 ### Prettier
@@ -23,5 +22,4 @@ export default re_taro();
 import { re_taro } from '@re-taro/configs/prettier';
 
 export default re_taro();
-
 ```

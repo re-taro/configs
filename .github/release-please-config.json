@@ -1,13 +1,11 @@
 {
-  "$schema": "https://github.com/googleapis/release-please/raw/main/schemas/config.json",
-  "release-type": "node",
-  "packages": {
-    ".": {
-      "extra-files": [
-        "README.md"
-      ],
-      "include-component-in-tag": false
-    }
-  },
-  "bump-minor-pre-major": true
+	"$schema": "https://github.com/googleapis/release-please/raw/main/schemas/config.json",
+	"bump-minor-pre-major": true,
+	"packages": {
+		".": {
+			"extra-files": ["README.md"],
+			"include-component-in-tag": false
+		}
+	},
+	"release-type": "node"
 }
