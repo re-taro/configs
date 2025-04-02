@@ -391,6 +391,7 @@ packages:
 
   '@re-taro/configs@file:':
     resolution: {directory: '', type: directory}
+    engines: {node: '>=23.9.0'}
     peerDependencies:
       '@eslint/css': ^0.1.0 || ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0
       '@eslint/js': ^9.0.0
