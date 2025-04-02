@@ -33,8 +33,8 @@ export const markdown = async (
 		{
 			name: 'eslint/markdown/recommended',
 			files: [GLOB_MD],
-			language: `markdown/${language}`,
-			processor: fencedCodeBlocks ? 'markdown/markdown' : undefined,
+			language: `md/${language}`,
+			processor: fencedCodeBlocks ? 'md/markdown' : undefined,
 			languageOptions:
 				fencedCodeBlocks ?
 					{
