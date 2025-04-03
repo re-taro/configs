@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/re-taro/configs/compare/v1.0.0...v1.0.1) (2025-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @eslint/css to v0.6.0 ([#8](https://github.com/re-taro/configs/issues/8)) ([60bad52](https://github.com/re-taro/configs/commit/60bad52580ebdd8613eca2ca4156079bc5ac2175))
+
 ## 1.0.0 (2025-04-02)
 
 
