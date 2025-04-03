@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/re-taro/configs/compare/v1.0.6...v1.0.7) (2025-04-03)
+
+
+### Bug Fixes
+
+* forgot to add vitest plugin to peerDeps ([#29](https://github.com/re-taro/configs/issues/29)) ([fc0f3cd](https://github.com/re-taro/configs/commit/fc0f3cdeff29c418168ac70e628413f82c7d066c))
+
 ## [1.0.6](https://github.com/re-taro/configs/compare/v1.0.5...v1.0.6) (2025-04-03)
 
 
