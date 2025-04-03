@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/re-taro/configs/compare/v1.0.3...v1.0.4) (2025-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-storybook to v0.12.0 ([#16](https://github.com/re-taro/configs/issues/16)) ([8dfbbc6](https://github.com/re-taro/configs/commit/8dfbbc6a4ec273d6df6431090329989ae16e2e0a))
+
 ## [1.0.3](https://github.com/re-taro/configs/compare/v1.0.2...v1.0.3) (2025-04-03)
 
 
