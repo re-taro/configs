@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(8a6e0fc0d3f0f7f8b435f17ca1c18d20)
+        version: file:(7b8a1286c74a2120832d092d6c42c9ac)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -67,8 +67,8 @@ importers:
         specifier: 7.2.1
         version: 7.2.1(eslint@9.23.0)
       eslint-plugin-react:
-        specifier: 7.37.4
-        version: 7.37.4(eslint@9.23.0)
+        specifier: 7.37.5
+        version: 7.37.5(eslint@9.23.0)
       eslint-plugin-react-hooks:
         specifier: 5.2.0
         version: 5.2.0(eslint@9.23.0)
@@ -1107,8 +1107,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
-  eslint-plugin-react@7.37.4:
-    resolution: {integrity: sha512-BGP0jRmfYyvOyvMoRX/uoUeW+GqNj9y16bPQzqAHf3AYII/tDs+jMN0dBVkl88/OZwNGwrVFxE7riHsXVfy/LQ==}
+  eslint-plugin-react@7.37.5:
+    resolution: {integrity: sha512-Qteup0SqU15kdocexFNAJMvCJEfa2xUKNV4CC1xsVMrIIqEy3SQ/rqyxCWNzfrd3/ldy6HMlD2e0JDVpDg2qIA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
@@ -1731,8 +1731,8 @@ packages:
     resolution: {integrity: sha512-nK28WOo+QIjBkDduTINE4JkF/UJJKyf2EJxvJKfblDpyg0Q+pkOHNTL0Qwy6NP6FhE/EnzV73BxxqcJaXY9anw==}
     engines: {node: '>= 0.4'}
 
-  object.entries@1.1.8:
-    resolution: {integrity: sha512-cmopxi8VwRIAw/fkijJohSfpef5PdN0pMQJN6VC/ZKvn0LIknWD8KtgY6KlQdEc4tIjcQ3HxSMmnvtzIscdaYQ==}
+  object.entries@1.1.9:
+    resolution: {integrity: sha512-8u/hfXFRBD1O0hPUjioLhoWFHRmt6tKA4/vZPyckBr18l1KE9uHrFaFaUi8MDRTpi4uak2goyPTSNJLXX2k2Hw==}
     engines: {node: '>= 0.4'}
 
   object.fromentries@2.0.8:
@@ -2504,7 +2504,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(8a6e0fc0d3f0f7f8b435f17ca1c18d20)':
+  '@re-taro/configs@file:(7b8a1286c74a2120832d092d6c42c9ac)':
     dependencies:
       '@eslint/css': 0.6.0
       '@eslint/js': 9.23.0
@@ -2517,7 +2517,7 @@ snapshots:
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.23.0)
       eslint-plugin-n: 17.17.0(eslint@9.23.0)
       eslint-plugin-promise: 7.2.1(eslint@9.23.0)
-      eslint-plugin-react: 7.37.4(eslint@9.23.0)
+      eslint-plugin-react: 7.37.5(eslint@9.23.0)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.23.0)
       eslint-plugin-regexp: 2.7.0(eslint@9.23.0)
       eslint-plugin-storybook: 0.12.0(eslint@9.23.0)(typescript@5.8.2)
@@ -3308,7 +3308,7 @@ snapshots:
     dependencies:
       eslint: 9.23.0
 
-  eslint-plugin-react@7.37.4(eslint@9.23.0):
+  eslint-plugin-react@7.37.5(eslint@9.23.0):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
@@ -3321,7 +3321,7 @@ snapshots:
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
       minimatch: 3.1.2
-      object.entries: 1.1.8
+      object.entries: 1.1.9
       object.fromentries: 2.0.8
       object.values: 1.2.1
       prop-types: 15.8.1
@@ -4155,9 +4155,10 @@ snapshots:
       has-symbols: 1.1.0
       object-keys: 1.1.1
 
-  object.entries@1.1.8:
+  object.entries@1.1.9:
     dependencies:
       call-bind: 1.0.8
+      call-bound: 1.0.4
       define-properties: 1.2.1
       es-object-atoms: 1.1.1
 
