@@ -4,7 +4,7 @@
 	"packageRules": [
 		{
 			"matchDepTypes": ["devDependencies"],
-			"matchPackageNames": ["!@types/*", "!tsx", "!typescript", "!vitest"],
+			"matchPackageNames": ["!@types/*", "!tsx", "!typescript", "!vitest", "!pnpm"],
 			"semanticCommitType": "fix"
 		}
 	]
