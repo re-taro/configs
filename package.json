@@ -1,6 +1,6 @@
 {
 	"name": "@re-taro/configs",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"type": "module",
 	"description": "re-taro's JavaScript/TypeScript toolchain configurations",
 	"repository": "https://github.com/re-taro/configs",
