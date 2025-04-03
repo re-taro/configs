@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/re-taro/configs/compare/v1.0.5...v1.0.6) (2025-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update pnpm to v10.7.1 ([#25](https://github.com/re-taro/configs/issues/25)) ([7041ee3](https://github.com/re-taro/configs/commit/7041ee302af42f86905df2461b589d80bf7df43a))
+
 ## [1.0.5](https://github.com/re-taro/configs/compare/v1.0.4...v1.0.5) (2025-04-03)
 
 
