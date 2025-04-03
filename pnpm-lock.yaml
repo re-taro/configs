@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(fd8c10d88f5163b6cb8e3f57daa5b574)
+        version: file:(8a6e0fc0d3f0f7f8b435f17ca1c18d20)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -402,6 +402,7 @@ packages:
       '@eslint/css': ^0.1.0 || ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0 || ^0.6.0
       '@eslint/js': ^9.0.0
       '@eslint/markdown': ^4.0.0 || ^5.0.0 || ^6.0.0
+      '@vitest/eslint-plugin': ^1.0.0
       eslint: ^9.20.0
       eslint-config-flat-gitignore: ^2.0.0
       eslint-config-prettier: ^10.0.0
@@ -2503,11 +2504,12 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(fd8c10d88f5163b6cb8e3f57daa5b574)':
+  '@re-taro/configs@file:(8a6e0fc0d3f0f7f8b435f17ca1c18d20)':
     dependencies:
       '@eslint/css': 0.6.0
       '@eslint/js': 9.23.0
       '@eslint/markdown': 6.3.0
+      '@vitest/eslint-plugin': 1.1.39(@typescript-eslint/utils@8.26.0(eslint@9.23.0)(typescript@5.8.2))(eslint@9.23.0)(typescript@5.8.2)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.0)(tsx@4.19.3))
       eslint-config-flat-gitignore: 2.1.0(eslint@9.23.0)
       eslint-config-prettier: 10.1.1(eslint@9.23.0)
       eslint-flat-config-utils: 2.0.1
