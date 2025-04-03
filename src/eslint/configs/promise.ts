@@ -1,3 +1,4 @@
+import { GLOB_SRC } from '../globs.js';
 import { loadPlugin } from '../utils.js';
 import type { OverridesOptions, PromiseRules } from '../types/index.js';
 import type { Linter } from 'eslint';
@@ -11,6 +12,7 @@ export const promise = async (options: OverridesOptions<PromiseRules> = {}): Pro
 	return [
 		{
 			name: 'eslint-community/promise/recommended',
+			files: [GLOB_SRC],
 			plugins: {
 				promise,
 			},
