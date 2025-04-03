@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/re-taro/configs/compare/v1.0.7...v1.0.8) (2025-04-03)
+
+
+### Bug Fixes
+
+* missed react hook rule ([#31](https://github.com/re-taro/configs/issues/31)) ([690cff8](https://github.com/re-taro/configs/commit/690cff8fec8bc7656aa59ab273db36379b4d4f3c))
+
 ## [1.0.7](https://github.com/re-taro/configs/compare/v1.0.6...v1.0.7) (2025-04-03)
 
 
