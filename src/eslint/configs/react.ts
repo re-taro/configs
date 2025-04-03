@@ -28,7 +28,6 @@ export const react = async (options: OverridesOptions<ReactRules> = {}): Promise
 			rules: {
 				...react.configs.flat['recommended']?.rules,
 				...react.configs.flat['jsx-runtime']?.rules,
-				...reactHooks.configs['recommended-latest'].rules,
 				...jsxA11y.flatConfigs.strict.rules,
 			},
 		},
@@ -44,6 +43,8 @@ export const react = async (options: OverridesOptions<ReactRules> = {}): Promise
 				'react/no-unstable-nested-components': 'error',
 				'react/prop-types': 'off',
 				'react/no-unknown-property': 'off',
+				'react-hooks/rules-of-hooks': 'error',
+				'react-hooks/exhaustive-deps': 'error',
 				'jsx-a11y/anchor-ambiguous-text': 'error',
 				'jsx-a11y/control-has-associated-label': 'error',
 				'jsx-a11y/lang': 'error',
