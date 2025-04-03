@@ -1,4 +1,4 @@
-import { GLOB_JS, GLOB_JSX, GLOB_TS, GLOB_TSX } from '../globs.js';
+import { GLOB_JS, GLOB_JSX, GLOB_SRC, GLOB_TS, GLOB_TSX } from '../globs.js';
 import { loadPlugin, renameRules } from '../utils.js';
 import type { ImportsRules, OverridesOptions } from '../types/index.js';
 import type { Linter } from 'eslint';
@@ -30,6 +30,7 @@ export const imports = async (
 	const configs: Linter.Config[] = [
 		{
 			name: 'un-ts/import/recommended',
+			files: [GLOB_SRC],
 			plugins: {
 				// @ts-expect-error TS2322 Type '{ ...' is not assignable to type 'Plugin'.
 				import: imports,

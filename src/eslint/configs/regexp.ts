@@ -1,3 +1,4 @@
+import { GLOB_SRC } from '../globs.js';
 import { loadPlugin } from '../utils.js';
 import type { OverridesOptions, RegexpRules } from '../types/index.js';
 import type { Linter } from 'eslint';
@@ -10,6 +11,7 @@ export const regexp = async (options: OverridesOptions<RegexpRules> = {}): Promi
 	return [
 		{
 			name: 'ota-meshi/regexp/recommended',
+			files: [GLOB_SRC],
 			plugins: {
 				regexp,
 			},

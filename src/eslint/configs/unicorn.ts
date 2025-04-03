@@ -1,3 +1,4 @@
+import { GLOB_SRC } from '../globs.js';
 import { loadPlugin } from '../utils.js';
 import type { OverridesOptions, UnicornRules } from '../types/index.js';
 import type { Linter } from 'eslint';
@@ -10,6 +11,7 @@ export const unicorn = async (options: OverridesOptions<UnicornRules> = {}): Pro
 	return [
 		{
 			name: 'sindresorhus/unicorn/recommended',
+			files: [GLOB_SRC],
 			plugins: {
 				unicorn,
 			},
