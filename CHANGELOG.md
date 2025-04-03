@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/re-taro/configs/compare/v1.0.8...v1.1.0) (2025-04-03)
+
+
+### Features
+
+* update files section ([#33](https://github.com/re-taro/configs/issues/33)) ([b669830](https://github.com/re-taro/configs/commit/b6698308f0e1ee265357cbe7870c2f80a1b7a9f9))
+
 ## [1.0.8](https://github.com/re-taro/configs/compare/v1.0.7...v1.0.8) (2025-04-03)
 
 
