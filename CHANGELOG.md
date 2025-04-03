@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/re-taro/configs/compare/v1.0.4...v1.0.5) (2025-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v58 ([#21](https://github.com/re-taro/configs/issues/21)) ([630d4e4](https://github.com/re-taro/configs/commit/630d4e45e2ff5e7f0e5104e7b6c579712f63b81e))
+
 ## [1.0.4](https://github.com/re-taro/configs/compare/v1.0.3...v1.0.4) (2025-04-03)
 
 
