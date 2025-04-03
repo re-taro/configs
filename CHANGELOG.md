@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/re-taro/configs/compare/v1.0.1...v1.0.2) (2025-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-n to v17.17.0 ([#15](https://github.com/re-taro/configs/issues/15)) ([3e90e51](https://github.com/re-taro/configs/commit/3e90e519d2c0c40845b352abf16acf0bc598b0ae))
+* **deps:** update dependency eslint-typegen to v2.1.0 ([#17](https://github.com/re-taro/configs/issues/17)) ([4591ca9](https://github.com/re-taro/configs/commit/4591ca95512b4dc9050bf8d533aa53d768cb2844))
+
 ## [1.0.1](https://github.com/re-taro/configs/compare/v1.0.0...v1.0.1) (2025-04-03)
 
 
