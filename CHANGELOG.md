@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/re-taro/configs/compare/v1.1.0...v1.1.1) (2025-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.37.5 ([#35](https://github.com/re-taro/configs/issues/35)) ([b3e4d83](https://github.com/re-taro/configs/commit/b3e4d833f2454801fbca7f70899dfa8441ac4347))
+
 ## [1.1.0](https://github.com/re-taro/configs/compare/v1.0.8...v1.1.0) (2025-04-03)
 
 
