@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/re-taro/configs/compare/v1.1.1...v1.1.2) (2025-04-05)
+
+
+### Bug Fixes
+
+* **deps:** update eslint monorepo to v9.24.0 ([#39](https://github.com/re-taro/configs/issues/39)) ([db2bc93](https://github.com/re-taro/configs/commit/db2bc93b92e84f7dc6fdb40df1762d242e358156))
+
 ## [1.1.1](https://github.com/re-taro/configs/compare/v1.1.0...v1.1.1) (2025-04-03)
 
 
