@@ -37,7 +37,10 @@ export const typescript = async (
 	const { rules: overrideRules = {}, extraFileExtensions = [], parserOptions = { projectService: true } } = options;
 	const files = options.files ?? [GLOB_TS, GLOB_TSX, ...extraFileExtensions.map((ext) => `**/*${ext}`)];
 
-	const ts = await loadPlugin<typeof import('typescript-eslint').default>('typescript-eslint');
+	const [ts, re_taro] = await Promise.all([
+		loadPlugin<typeof import('typescript-eslint').default>('typescript-eslint'),
+		loadPlugin<typeof import('../plugins/index.js').default>('./plugins/index.js'),
+	]);
 
 	return [
 		{
@@ -54,7 +57,9 @@ export const typescript = async (
 			},
 			plugins: {
 				// @ts-expect-error TS2375 Type 'ESLint.Plugin' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
-				ts: ts.plugin,
+				'ts': ts.plugin,
+				// @ts-expect-error TS2375 Type 'ESLint.Plugin' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+				're-taro': re_taro,
 			},
 			rules: {
 				...renameRules(ts.configs.strictTypeChecked.at(-1)?.rules!, { '@typescript-eslint': 'ts' }),
@@ -73,7 +78,13 @@ export const typescript = async (
 						fixMixedExportsWithInlineTypeSpecifier: true,
 					},
 				],
-				'ts/consistent-type-imports': 'error',
+				'ts/consistent-type-imports': [
+					'error',
+					{
+						prefer: 'type-imports',
+						fixStyle: 'separate-type-imports',
+					},
+				],
 				'ts/no-unused-vars': [
 					'error',
 					{
@@ -86,6 +97,7 @@ export const typescript = async (
 				'ts/require-array-sort-compare': 'error',
 				'ts/return-await': ['error', 'always'],
 				'ts/no-unnecessary-condition': ['error', { allowConstantLoopConditions: true }],
+				're-taro/switch-exhaustiveness-check': 'error',
 
 				...overrideRules,
 			},
