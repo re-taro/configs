@@ -17,7 +17,7 @@ export const interopDefault = async <T>(mod: Awaitable<T>): Promise<T extends { 
 	const resolved = await mod;
 
 	// eslint-disable-next-line ts/no-unsafe-return, ts/no-unsafe-member-access
-	return (resolved as any).default || resolved;
+	return (resolved as any).default ?? resolved;
 };
 
 /**

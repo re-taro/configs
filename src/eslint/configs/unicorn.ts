@@ -30,6 +30,7 @@ export const unicorn = async (options: OverridesOptions<UnicornRules> = {}): Pro
 				'unicorn/no-array-reduce': 'off',
 				'unicorn/no-negated-condition': 'off',
 				'unicorn/prevent-abbreviations': 'off',
+				'unicorn/no-null': 'off',
 
 				...overrideRules,
 			},

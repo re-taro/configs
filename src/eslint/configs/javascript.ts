@@ -56,7 +56,7 @@ export const javascript = async (options: OverridesOptions<JavascriptRules>): Pr
 				'complexity': ['error', 15],
 				'default-case-last': 'error',
 				'default-param-last': 'error',
-				'eqeqeq': ['error', 'always', { null: 'ignore' }],
+				'eqeqeq': ['error', 'always', { null: 'never' }],
 				'grouped-accessor-pairs': ['error', 'setBeforeGet'],
 				'no-alert': 'error',
 				'no-console': ['error', { allow: ['warn', 'error'] }],
