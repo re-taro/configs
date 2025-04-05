@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/re-taro/configs/compare/v1.1.2...v1.2.0) (2025-04-05)
+
+
+### Features
+
+* create custom plugin ([#42](https://github.com/re-taro/configs/issues/42)) ([69632ea](https://github.com/re-taro/configs/commit/69632ea8bd8ae6c78fa7f769b2a070363744e00a))
+
 ## [1.1.2](https://github.com/re-taro/configs/compare/v1.1.1...v1.1.2) (2025-04-05)
 
 
