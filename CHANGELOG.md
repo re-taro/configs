@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/re-taro/configs/compare/v1.2.0...v1.2.1) (2025-04-06)
+
+
+### Bug Fixes
+
+* add files options ([#44](https://github.com/re-taro/configs/issues/44)) ([2494253](https://github.com/re-taro/configs/commit/24942534639a69f516ea1a280a12c5129b048220))
+
 ## [1.2.0](https://github.com/re-taro/configs/compare/v1.1.2...v1.2.0) (2025-04-05)
 
 
