@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/re-taro/configs/compare/v1.2.1...v1.3.0) (2025-04-06)
+
+
+### Features
+
+* update recommended rule of node ([#47](https://github.com/re-taro/configs/issues/47)) ([4ae9bb8](https://github.com/re-taro/configs/commit/4ae9bb8f482b1f012e6c6bed4f6f6b3c2e347ffc))
+
 ## [1.2.1](https://github.com/re-taro/configs/compare/v1.2.0...v1.2.1) (2025-04-06)
 
 
