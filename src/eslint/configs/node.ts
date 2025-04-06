@@ -1,3 +1,4 @@
+import { GLOB_SRC } from '../globs.js';
 import { loadPlugin, renameRules } from '../utils.js';
 import type { NodeRules, OverridesOptions } from '../types/index.js';
 import type { Linter } from 'eslint';
@@ -23,6 +24,7 @@ export const node = async (options: OverridesOptions<NodeRules> = {}): Promise<L
 		},
 		{
 			name: 're-taro/node/overrides',
+			files: [GLOB_SRC],
 			rules: {
 				'node/no-deprecated-api': 'error',
 				'node/no-exports-assign': 'error',
