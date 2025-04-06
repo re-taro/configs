@@ -1,5 +1,4 @@
-import { GLOB_SRC } from '../globs.js';
-import { loadPlugin, renameRules } from '../utils.js';
+import { loadPlugin } from '../utils.js';
 import type { NodeRules, OverridesOptions } from '../types/index.js';
 import type { Linter } from 'eslint';
 
@@ -10,21 +9,16 @@ export const node = async (options: OverridesOptions<NodeRules> = {}): Promise<L
 
 	return [
 		{
-			name: 'eslint-community/node/recommended',
+			name: 'eslint-community/node',
 			languageOptions: {
 				...node.configs['flat/recommended'].languageOptions,
 			},
 			plugins: {
 				node,
 			},
-			rules: {
-				// @ts-expect-error TS2345 Argument of type 'Partial<RulesRecord> | undefined' is not assignable to parameter of type 'Record<string, any>'.
-				...renameRules(node.configs['flat/recommended'].rules, { n: 'node' }),
-			},
 		},
 		{
 			name: 're-taro/node/overrides',
-			files: [GLOB_SRC],
 			rules: {
 				'node/no-deprecated-api': 'error',
 				'node/no-exports-assign': 'error',
