@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/re-taro/configs/compare/v1.3.0...v1.3.1) (2025-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-typescript to v4.3.2 ([#49](https://github.com/re-taro/configs/issues/49)) ([7b6aee3](https://github.com/re-taro/configs/commit/7b6aee3fa80dca456bc03f96e36e114d12ae9dd0))
+* **deps:** update typescript-eslint monorepo to v8.29.1 ([#19](https://github.com/re-taro/configs/issues/19)) ([f3da28f](https://github.com/re-taro/configs/commit/f3da28f0778e4e46f5a685757da2e55e0aafe087))
+
 ## [1.3.0](https://github.com/re-taro/configs/compare/v1.2.1...v1.3.0) (2025-04-06)
 
 
