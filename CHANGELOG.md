@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/re-taro/configs/compare/v1.3.1...v1.3.2) (2025-04-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vitest/eslint-plugin to v1.1.40 ([#52](https://github.com/re-taro/configs/issues/52)) ([3f68f69](https://github.com/re-taro/configs/commit/3f68f69dbd1c6f56e0b36a55201757952ba744ea))
+
 ## [1.3.1](https://github.com/re-taro/configs/compare/v1.3.0...v1.3.1) (2025-04-07)
 
 
