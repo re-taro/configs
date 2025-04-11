@@ -26,13 +26,13 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(59d876f2f97dc8db6e7c4e50b401b37a)
+        version: file:(c877bb48c8ffb29edb0dc4df99190434)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
       '@types/node':
-        specifier: 22.14.0
-        version: 22.14.0
+        specifier: 22.14.1
+        version: 22.14.1
       '@typescript-eslint/type-utils':
         specifier: 8.29.1
         version: 8.29.1(eslint@9.24.0)(typescript@5.8.3)
@@ -41,7 +41,7 @@ importers:
         version: 8.29.1(eslint@9.24.0)(typescript@5.8.3)
       '@vitest/eslint-plugin':
         specifier: 1.1.42
-        version: 1.1.42(@typescript-eslint/utils@8.29.1(eslint@9.24.0)(typescript@5.8.3))(eslint@9.24.0)(typescript@5.8.3)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.0)(tsx@4.19.3))
+        version: 1.1.42(@typescript-eslint/utils@8.29.1(eslint@9.24.0)(typescript@5.8.3))(eslint@9.24.0)(typescript@5.8.3)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.1)(tsx@4.19.3))
       eslint:
         specifier: 9.24.0
         version: 9.24.0
@@ -113,7 +113,7 @@ importers:
         version: 8.29.1(eslint@9.24.0)(typescript@5.8.3)
       vitest:
         specifier: 3.1.1
-        version: 3.1.1(@types/debug@4.1.12)(@types/node@22.14.0)(tsx@4.19.3)
+        version: 3.1.1(@types/debug@4.1.12)(@types/node@22.14.1)(tsx@4.19.3)
 
 packages:
 
@@ -562,8 +562,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.14.0':
-    resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
+  '@types/node@22.14.1':
+    resolution: {integrity: sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2519,14 +2519,14 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(59d876f2f97dc8db6e7c4e50b401b37a)':
+  '@re-taro/configs@file:(c877bb48c8ffb29edb0dc4df99190434)':
     dependencies:
       '@eslint/css': 0.6.0
       '@eslint/js': 9.24.0
       '@eslint/markdown': 6.3.0
       '@typescript-eslint/type-utils': 8.29.1(eslint@9.24.0)(typescript@5.8.3)
       '@typescript-eslint/utils': 8.29.1(eslint@9.24.0)(typescript@5.8.3)
-      '@vitest/eslint-plugin': 1.1.42(@typescript-eslint/utils@8.29.1(eslint@9.24.0)(typescript@5.8.3))(eslint@9.24.0)(typescript@5.8.3)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.0)(tsx@4.19.3))
+      '@vitest/eslint-plugin': 1.1.42(@typescript-eslint/utils@8.29.1(eslint@9.24.0)(typescript@5.8.3))(eslint@9.24.0)(typescript@5.8.3)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.1)(tsx@4.19.3))
       eslint-config-flat-gitignore: 2.1.0(eslint@9.24.0)
       eslint-config-prettier: 10.1.2(eslint@9.24.0)
       eslint-flat-config-utils: 2.0.1
@@ -2641,7 +2641,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.14.0':
+  '@types/node@22.14.1':
     dependencies:
       undici-types: 6.21.0
 
@@ -2785,11 +2785,11 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.4.1':
     optional: true
 
-  '@vitest/eslint-plugin@1.1.42(@typescript-eslint/utils@8.29.1(eslint@9.24.0)(typescript@5.8.3))(eslint@9.24.0)(typescript@5.8.3)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.0)(tsx@4.19.3))':
+  '@vitest/eslint-plugin@1.1.42(@typescript-eslint/utils@8.29.1(eslint@9.24.0)(typescript@5.8.3))(eslint@9.24.0)(typescript@5.8.3)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.1)(tsx@4.19.3))':
     dependencies:
       '@typescript-eslint/utils': 8.29.1(eslint@9.24.0)(typescript@5.8.3)
       eslint: 9.24.0
-      vitest: 3.1.1(@types/debug@4.1.12)(@types/node@22.14.0)(tsx@4.19.3)
+      vitest: 3.1.1(@types/debug@4.1.12)(@types/node@22.14.1)(tsx@4.19.3)
     optionalDependencies:
       typescript: 5.8.3
 
@@ -2800,13 +2800,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.1.1(vite@6.2.1(@types/node@22.14.0)(tsx@4.19.3))':
+  '@vitest/mocker@3.1.1(vite@6.2.1(@types/node@22.14.1)(tsx@4.19.3))':
     dependencies:
       '@vitest/spy': 3.1.1
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 6.2.1(@types/node@22.14.0)(tsx@4.19.3)
+      vite: 6.2.1(@types/node@22.14.1)(tsx@4.19.3)
 
   '@vitest/pretty-format@3.1.1':
     dependencies:
@@ -4722,13 +4722,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@3.1.1(@types/node@22.14.0)(tsx@4.19.3):
+  vite-node@3.1.1(@types/node@22.14.1)(tsx@4.19.3):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.6.0
       pathe: 2.0.3
-      vite: 6.2.1(@types/node@22.14.0)(tsx@4.19.3)
+      vite: 6.2.1(@types/node@22.14.1)(tsx@4.19.3)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -4743,20 +4743,20 @@ snapshots:
       - tsx
       - yaml
 
-  vite@6.2.1(@types/node@22.14.0)(tsx@4.19.3):
+  vite@6.2.1(@types/node@22.14.1)(tsx@4.19.3):
     dependencies:
       esbuild: 0.25.0
       postcss: 8.5.3
       rollup: 4.35.0
     optionalDependencies:
-      '@types/node': 22.14.0
+      '@types/node': 22.14.1
       fsevents: 2.3.3
       tsx: 4.19.3
 
-  vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.0)(tsx@4.19.3):
+  vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.14.1)(tsx@4.19.3):
     dependencies:
       '@vitest/expect': 3.1.1
-      '@vitest/mocker': 3.1.1(vite@6.2.1(@types/node@22.14.0)(tsx@4.19.3))
+      '@vitest/mocker': 3.1.1(vite@6.2.1(@types/node@22.14.1)(tsx@4.19.3))
       '@vitest/pretty-format': 3.1.1
       '@vitest/runner': 3.1.1
       '@vitest/snapshot': 3.1.1
@@ -4772,12 +4772,12 @@ snapshots:
       tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
-      vite: 6.2.1(@types/node@22.14.0)(tsx@4.19.3)
-      vite-node: 3.1.1(@types/node@22.14.0)(tsx@4.19.3)
+      vite: 6.2.1(@types/node@22.14.1)(tsx@4.19.3)
+      vite-node: 3.1.1(@types/node@22.14.1)(tsx@4.19.3)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/debug': 4.1.12
-      '@types/node': 22.14.0
+      '@types/node': 22.14.1
     transitivePeerDependencies:
       - jiti
       - less
