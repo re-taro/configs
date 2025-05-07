@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.3.5](https://github.com/re-taro/configs/compare/v1.3.4...v1.3.5) (2025-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vitest/eslint-plugin to v1.1.43 ([#69](https://github.com/re-taro/configs/issues/69)) ([60f91c7](https://github.com/re-taro/configs/commit/60f91c76261c04024a5d2b6bbd737db7f4d56a2a))
+* **deps:** update dependency @vitest/eslint-plugin to v1.1.44 ([#85](https://github.com/re-taro/configs/issues/85)) ([62dd849](https://github.com/re-taro/configs/commit/62dd8495483105f499432f2b82de100bfb74e7f0))
+* **deps:** update dependency eslint-import-resolver-typescript to v4.3.3 ([#71](https://github.com/re-taro/configs/issues/71)) ([a3a06b6](https://github.com/re-taro/configs/commit/a3a06b6174a1bfafe4047349397f83508de82790))
+* **deps:** update dependency eslint-import-resolver-typescript to v4.3.4 ([#74](https://github.com/re-taro/configs/issues/74)) ([6b44ec1](https://github.com/re-taro/configs/commit/6b44ec1f084d3fc1709b1b6ee522c15dc5b39c29))
+* **deps:** update dependency eslint-plugin-unicorn to v59 ([#80](https://github.com/re-taro/configs/issues/80)) ([aae0bc4](https://github.com/re-taro/configs/commit/aae0bc44dec653248da71b541f0e3c2d6d143743))
+* **deps:** update eslint monorepo to v9.25.0 ([#70](https://github.com/re-taro/configs/issues/70)) ([c7dd50c](https://github.com/re-taro/configs/commit/c7dd50ce7a69e84057b000660cf18fa800946fc4))
+* **deps:** update eslint monorepo to v9.25.1 ([#75](https://github.com/re-taro/configs/issues/75)) ([a2b4436](https://github.com/re-taro/configs/commit/a2b4436587af78a3bfdf885061167eaf26cb5616))
+* **deps:** update eslint monorepo to v9.26.0 ([#88](https://github.com/re-taro/configs/issues/88)) ([4223521](https://github.com/re-taro/configs/commit/42235212f8738a5982bee5e7774d9146ee093a89))
+* **deps:** update typescript-eslint monorepo to v8.30.0 ([#63](https://github.com/re-taro/configs/issues/63)) ([f5a2441](https://github.com/re-taro/configs/commit/f5a2441e4cc656d79052afc0a4bc90d2ea57b411))
+* **deps:** update typescript-eslint monorepo to v8.30.1 ([#65](https://github.com/re-taro/configs/issues/65)) ([b0c7c2f](https://github.com/re-taro/configs/commit/b0c7c2fbabdfc775b8fda9d1e4ea51c4fd304686))
+* **deps:** update typescript-eslint monorepo to v8.31.0 ([#76](https://github.com/re-taro/configs/issues/76)) ([72552dc](https://github.com/re-taro/configs/commit/72552dc71a0c8614c23d4f940e6a3039329cfbca))
+* **deps:** update typescript-eslint monorepo to v8.31.1 ([#83](https://github.com/re-taro/configs/issues/83)) ([c0255f2](https://github.com/re-taro/configs/commit/c0255f2f61808190611962e9b3f0928ce1ababe1))
+* **deps:** update typescript-eslint monorepo to v8.32.0 ([#91](https://github.com/re-taro/configs/issues/91)) ([e1551a8](https://github.com/re-taro/configs/commit/e1551a8f0858bc3799fc06929ae380b2b1eac935))
+
 ## [1.3.4](https://github.com/re-taro/configs/compare/v1.3.3...v1.3.4) (2025-04-11)
 
 
