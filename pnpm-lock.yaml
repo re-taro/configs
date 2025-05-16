@@ -16,8 +16,8 @@ importers:
         version: 4.1.1(prettier@3.5.3)
     devDependencies:
       '@eslint/css':
-        specifier: 0.6.0
-        version: 0.6.0
+        specifier: 0.8.1
+        version: 0.8.1
       '@eslint/js':
         specifier: 9.27.0
         version: 9.27.0
@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(d4251865bd837f5358e5ff287730d691)
+        version: file:(6c9d694c8a93ae28c1c9bc5a3ddd863b)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -333,12 +333,12 @@ packages:
     resolution: {integrity: sha512-qIbV0/JZr7iSDjqAc60IqbLdsj9GDt16xQtWD+B78d/HAlvysGdZZ6rpJHGAc2T0FQx1X6thsSPdnoiGKdNtdg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/css-tree@3.3.2':
-    resolution: {integrity: sha512-led4NDgHEU0agb8IQ0txlQejqWuYMuzqfNbrOxdNtT9XeXfjgOUdvczhcM3EsT3MBBsDlW0CXNpytMMbIYwHKQ==}
+  '@eslint/css-tree@3.5.2':
+    resolution: {integrity: sha512-SkkEYe3SCzV/iOnsT54sARwlWKCD2hWrxG8GlAWdHbutEyQBf5YpfDAmo83iPUyoS4AHDWyqg4qpHBijdLys9g==}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
 
-  '@eslint/css@0.6.0':
-    resolution: {integrity: sha512-MFjbx8n4/NS6aW65efZW22541WZZjy5HGq5ylctzlfoCiCN+Hmsi+M6kQE4drmNqLlreCBnhT9hh51fCrStMpQ==}
+  '@eslint/css@0.8.1':
+    resolution: {integrity: sha512-674JJD1q8sDlJORLep+gGnm3VRCQo/qLmKQgCIf2LnUK/tHf96StWjLX2IF3yyp3yeU9npZ6ixySMr2G256eiQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/eslintrc@3.3.1':
@@ -414,7 +414,7 @@ packages:
     resolution: {directory: '', type: directory}
     engines: {node: '>=23.9.0'}
     peerDependencies:
-      '@eslint/css': ^0.1.0 || ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0 || ^0.6.0
+      '@eslint/css': ^0.1.0 || ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0 || ^0.6.0 || ^0.8.0
       '@eslint/js': ^9.0.0
       '@eslint/markdown': ^4.0.0 || ^5.0.0 || ^6.0.0
       '@typescript-eslint/type-utils': ^8.0.0
@@ -1614,8 +1614,8 @@ packages:
   mdast-util-to-string@4.0.0:
     resolution: {integrity: sha512-0H44vDimn51F0YwvxSJSm0eCDOJTRlmN0R1yBh4HLj9wiV1Dn0QoXGbvFAWj2hSItVTlCmBF1hqKlIyUBVFLPg==}
 
-  mdn-data@2.18.0:
-    resolution: {integrity: sha512-gtCy1yim/vpHF/tq3B4Z43x3zKWpYeb4IM3d/Mf4oMYcNuoXOYEaqtoFlLHw9zd7+WNN3jNh6/WXyUrD3OIiwQ==}
+  mdn-data@2.20.0:
+    resolution: {integrity: sha512-/d3otgvmquUkAN2RVxSg6lIbQrYX7isR4aC5Hvw8JuHvzctR3eUG50WmsAZjb9MkbJ5LbijPSy7uIxEtQDGI0w==}
 
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
@@ -2415,16 +2415,16 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/css-tree@3.3.2':
+  '@eslint/css-tree@3.5.2':
     dependencies:
-      mdn-data: 2.18.0
+      mdn-data: 2.20.0
       source-map-js: 1.2.1
 
-  '@eslint/css@0.6.0':
+  '@eslint/css@0.8.1':
     dependencies:
-      '@eslint/core': 0.10.0
-      '@eslint/css-tree': 3.3.2
-      '@eslint/plugin-kit': 0.2.7
+      '@eslint/core': 0.14.0
+      '@eslint/css-tree': 3.5.2
+      '@eslint/plugin-kit': 0.3.1
 
   '@eslint/eslintrc@3.3.1':
     dependencies:
@@ -2505,9 +2505,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(d4251865bd837f5358e5ff287730d691)':
+  '@re-taro/configs@file:(6c9d694c8a93ae28c1c9bc5a3ddd863b)':
     dependencies:
-      '@eslint/css': 0.6.0
+      '@eslint/css': 0.8.1
       '@eslint/js': 9.27.0
       '@eslint/markdown': 6.3.0
       '@typescript-eslint/type-utils': 8.32.1(eslint@9.27.0)(typescript@5.8.3)
@@ -3928,7 +3928,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
 
-  mdn-data@2.18.0: {}
+  mdn-data@2.20.0: {}
 
   merge2@1.4.1: {}
 
