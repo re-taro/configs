@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.3.8](https://github.com/re-taro/configs/compare/v1.3.7...v1.3.8) (2025-05-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vitest/eslint-plugin to v1.2.0 ([#113](https://github.com/re-taro/configs/issues/113)) ([d1f538e](https://github.com/re-taro/configs/commit/d1f538e4cb98a44299146258c44452ee7800ab7f))
+* **deps:** update dependency eslint-typegen to v2.2.0 ([#106](https://github.com/re-taro/configs/issues/106)) ([5b51ec4](https://github.com/re-taro/configs/commit/5b51ec427d1495d6dddacfb1209242916d263d2f))
+* **deps:** update dependency typescript-eslint to v8.32.1 ([#109](https://github.com/re-taro/configs/issues/109)) ([6898ed7](https://github.com/re-taro/configs/commit/6898ed7026293aa683fc080d53fadd47cf161c47))
+* **deps:** update eslint monorepo to v9.27.0 ([#114](https://github.com/re-taro/configs/issues/114)) ([73f1117](https://github.com/re-taro/configs/commit/73f11172b527420107a767edfadb2d14d7fe90b1))
+* **deps:** update typescript-eslint monorepo to v8.32.1 ([#108](https://github.com/re-taro/configs/issues/108)) ([ea97c98](https://github.com/re-taro/configs/commit/ea97c98646a7e47b02f9b112ceac9112ba00ced2))
+
 ## [1.3.7](https://github.com/re-taro/configs/compare/v1.3.6...v1.3.7) (2025-05-09)
 
 
