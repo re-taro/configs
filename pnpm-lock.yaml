@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(86fcc7b025732a5f9a672e3c2999b408)
+        version: file:(20ea192e2d3982b07342b8d9832b8c42)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -64,8 +64,8 @@ importers:
         specifier: 6.10.2
         version: 6.10.2(eslint@9.28.0)
       eslint-plugin-n:
-        specifier: 17.19.0
-        version: 17.19.0(eslint@9.28.0)(typescript@5.8.3)
+        specifier: 17.20.0
+        version: 17.20.0(eslint@9.28.0)(typescript@5.8.3)
       eslint-plugin-promise:
         specifier: 7.2.1
         version: 7.2.1(eslint@9.28.0)
@@ -1245,8 +1245,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-n@17.19.0:
-    resolution: {integrity: sha512-qxn1NaDHtizbhVAPpbMT8wWFaLtPnwhfN/e+chdu2i6Vgzmo/tGM62tcJ1Hf7J5Ie4dhse3DOPMmDxduzfifzw==}
+  eslint-plugin-n@17.20.0:
+    resolution: {integrity: sha512-IRSoatgB/NQJZG5EeTbv/iAx1byOGdbbyhQrNvWdCfTnmPxUT0ao9/eGOeG7ljD8wJBsxwE8f6tES5Db0FRKEw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -2731,7 +2731,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(86fcc7b025732a5f9a672e3c2999b408)':
+  '@re-taro/configs@file:(20ea192e2d3982b07342b8d9832b8c42)':
     dependencies:
       '@eslint/css': 0.6.0
       '@eslint/js': 9.28.0
@@ -2744,7 +2744,7 @@ snapshots:
       eslint-flat-config-utils: 2.1.0
       eslint-plugin-import-x: 4.6.1(eslint@9.28.0)(typescript@5.8.3)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.28.0)
-      eslint-plugin-n: 17.19.0(eslint@9.28.0)(typescript@5.8.3)
+      eslint-plugin-n: 17.20.0(eslint@9.28.0)(typescript@5.8.3)
       eslint-plugin-promise: 7.2.1(eslint@9.28.0)
       eslint-plugin-react: 7.37.5(eslint@9.28.0)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.28.0)
@@ -3651,7 +3651,7 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-n@17.19.0(eslint@9.28.0)(typescript@5.8.3):
+  eslint-plugin-n@17.20.0(eslint@9.28.0)(typescript@5.8.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.28.0)
       '@typescript-eslint/utils': 8.34.0(eslint@9.28.0)(typescript@5.8.3)
