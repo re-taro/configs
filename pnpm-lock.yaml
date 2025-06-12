@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(3acfa02f12f777d297ad0134ce84838a)
+        version: file:(e6a8ade31e95cf93f9c3e13fc2b07f59)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -40,8 +40,8 @@ importers:
         specifier: 8.34.0
         version: 8.34.0(eslint@9.28.0)(typescript@5.8.3)
       '@vitest/eslint-plugin':
-        specifier: 1.2.2
-        version: 1.2.2(eslint@9.28.0)(typescript@5.8.3)(vitest@3.2.3(@types/debug@4.1.12)(@types/node@22.15.31)(tsx@4.20.2))
+        specifier: 1.2.4
+        version: 1.2.4(eslint@9.28.0)(typescript@5.8.3)(vitest@3.2.3(@types/debug@4.1.12)(@types/node@22.15.31)(tsx@4.20.2))
       eslint:
         specifier: 9.28.0
         version: 9.28.0
@@ -774,8 +774,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vitest/eslint-plugin@1.2.2':
-    resolution: {integrity: sha512-R8NwW+VxyKqVGcMfYsUbdThQyMbtNcoeg+jJeTgMHqWdFdcS0nrODAQXhkplvWzgd7jIJ+GQeydGqFLibsxMxg==}
+  '@vitest/eslint-plugin@1.2.4':
+    resolution: {integrity: sha512-4gcw3Kvh1cvwEA1dhPbcwoNmJJXQAaeSiP4UZ8Y9SFdxKuMKrt3moxQ1DLklugjw8S1zhziDp/vPrB3x0UEHKQ==}
     peerDependencies:
       eslint: '>= 8.57.0'
       typescript: '>= 5.0.0'
@@ -2731,14 +2731,14 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(3acfa02f12f777d297ad0134ce84838a)':
+  '@re-taro/configs@file:(e6a8ade31e95cf93f9c3e13fc2b07f59)':
     dependencies:
       '@eslint/css': 0.6.0
       '@eslint/js': 9.28.0
       '@eslint/markdown': 6.3.0
       '@typescript-eslint/type-utils': 8.34.0(eslint@9.28.0)(typescript@5.8.3)
       '@typescript-eslint/utils': 8.34.0(eslint@9.28.0)(typescript@5.8.3)
-      '@vitest/eslint-plugin': 1.2.2(eslint@9.28.0)(typescript@5.8.3)(vitest@3.2.3(@types/debug@4.1.12)(@types/node@22.15.31)(tsx@4.20.2))
+      '@vitest/eslint-plugin': 1.2.4(eslint@9.28.0)(typescript@5.8.3)(vitest@3.2.3(@types/debug@4.1.12)(@types/node@22.15.31)(tsx@4.20.2))
       eslint-config-flat-gitignore: 2.1.0(eslint@9.28.0)
       eslint-config-prettier: 10.1.5(eslint@9.28.0)
       eslint-flat-config-utils: 2.1.0
@@ -3047,7 +3047,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.7.11':
     optional: true
 
-  '@vitest/eslint-plugin@1.2.2(eslint@9.28.0)(typescript@5.8.3)(vitest@3.2.3(@types/debug@4.1.12)(@types/node@22.15.31)(tsx@4.20.2))':
+  '@vitest/eslint-plugin@1.2.4(eslint@9.28.0)(typescript@5.8.3)(vitest@3.2.3(@types/debug@4.1.12)(@types/node@22.15.31)(tsx@4.20.2))':
     dependencies:
       '@typescript-eslint/utils': 8.34.0(eslint@9.28.0)(typescript@5.8.3)
       eslint: 9.28.0
