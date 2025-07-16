@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.3.9](https://github.com/re-taro/configs/compare/v1.3.8...v1.3.9) (2025-07-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-storybook to v9.0.16 ([#195](https://github.com/re-taro/configs/issues/195)) ([ab78d8c](https://github.com/re-taro/configs/commit/ab78d8c8adce2b2fe10769fc9abc3312342edf07))
+* **deps:** update dependency eslint-plugin-storybook to v9.0.17 ([#204](https://github.com/re-taro/configs/issues/204)) ([c94f751](https://github.com/re-taro/configs/commit/c94f75126e0f2404da26d0faa9b41b36707e40bb))
+* **deps:** update eslint monorepo to v9.31.0 ([#201](https://github.com/re-taro/configs/issues/201)) ([a5362c6](https://github.com/re-taro/configs/commit/a5362c692b54ada54b69b833f1b4a9b44e5fbb93))
+* **deps:** update typescript-eslint monorepo to v8.36.0 ([#192](https://github.com/re-taro/configs/issues/192)) ([7711a76](https://github.com/re-taro/configs/commit/7711a76878e95aba36ec628af00a04efa97c9d1b))
+* **deps:** update typescript-eslint monorepo to v8.37.0 ([#202](https://github.com/re-taro/configs/issues/202)) ([20f4400](https://github.com/re-taro/configs/commit/20f4400e79174ff37c7f39a4946056521ee1a0c1))
+
 ## [1.3.8](https://github.com/re-taro/configs/compare/v1.3.7...v1.3.8) (2025-07-04)
 
 
