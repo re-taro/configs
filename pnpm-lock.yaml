@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(d4187846d94d97942b168bcd04dcc2ad)
+        version: file:(ca96ba9e69526a6b08f7b0c5c370173d)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -49,8 +49,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(eslint@9.31.0)
       eslint-config-prettier:
-        specifier: 10.1.7
-        version: 10.1.7(eslint@9.31.0)
+        specifier: 10.1.8
+        version: 10.1.8(eslint@9.31.0)
       eslint-flat-config-utils:
         specifier: 2.1.0
         version: 2.1.0
@@ -1197,8 +1197,8 @@ packages:
     peerDependencies:
       eslint: ^9.5.0
 
-  eslint-config-prettier@10.1.7:
-    resolution: {integrity: sha512-xztdELuHs7grBM+qdMUF4M4SjPpeOMN3kx7sGU6ifl5yibck/GRa0+0d+m1lPsGNkd+2bIWh2lUUTzX7MX/obw==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2746,7 +2746,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(d4187846d94d97942b168bcd04dcc2ad)':
+  '@re-taro/configs@file:(ca96ba9e69526a6b08f7b0c5c370173d)':
     dependencies:
       '@eslint/css': 0.9.0
       '@eslint/js': 9.31.0
@@ -2755,7 +2755,7 @@ snapshots:
       '@typescript-eslint/utils': 8.37.0(eslint@9.31.0)(typescript@5.8.3)
       '@vitest/eslint-plugin': 1.2.7(eslint@9.31.0)(typescript@5.8.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@22.16.4)(tsx@4.20.3))
       eslint-config-flat-gitignore: 2.1.0(eslint@9.31.0)
-      eslint-config-prettier: 10.1.7(eslint@9.31.0)
+      eslint-config-prettier: 10.1.8(eslint@9.31.0)
       eslint-flat-config-utils: 2.1.0
       eslint-plugin-import-x: 4.6.1(eslint@9.31.0)(typescript@5.8.3)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.31.0)
@@ -3583,7 +3583,7 @@ snapshots:
       '@eslint/compat': 1.2.7(eslint@9.31.0)
       eslint: 9.31.0
 
-  eslint-config-prettier@10.1.7(eslint@9.31.0):
+  eslint-config-prettier@10.1.8(eslint@9.31.0):
     dependencies:
       eslint: 9.31.0
 
