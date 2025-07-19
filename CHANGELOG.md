@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.10](https://github.com/re-taro/configs/compare/v1.3.9...v1.3.10) (2025-07-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v10.1.7 ([#205](https://github.com/re-taro/configs/issues/205)) ([45a6418](https://github.com/re-taro/configs/commit/45a6418375992e38c978daf014c62f000f68e307))
+* **deps:** update dependency eslint-config-prettier to v10.1.8 ([#207](https://github.com/re-taro/configs/issues/207)) ([2d9f43e](https://github.com/re-taro/configs/commit/2d9f43e75fbc13437b888c2ee1b6cdcecc88abd4))
+
 ## [1.3.9](https://github.com/re-taro/configs/compare/v1.3.8...v1.3.9) (2025-07-15)
 
 
