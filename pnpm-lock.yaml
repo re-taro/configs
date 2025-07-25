@@ -16,8 +16,8 @@ importers:
         version: 4.1.1(prettier@3.6.2)
     devDependencies:
       '@eslint/css':
-        specifier: 0.9.0
-        version: 0.9.0
+        specifier: 0.10.0
+        version: 0.10.0
       '@eslint/js':
         specifier: 9.32.0
         version: 9.32.0
@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(fa6805c3e0a29991f5424febdf0ed1ff)
+        version: file:(787cac9f8f6b1cad00ab3607dfd47b40)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -356,8 +356,8 @@ packages:
     resolution: {integrity: sha512-5DIsBME23tUQD5zHD+T38lC2DG4jB8x8JRa+yDncLne2TIZA0VuCpcSazOX1EC+sM/q8w24qeevXfmfsIxAeqA==}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
 
-  '@eslint/css@0.9.0':
-    resolution: {integrity: sha512-fq8hYnjipdzVDSU/bXqv7qlvdjDA27Nq7DhQXzlPElLlVon3lnKovIM/6HaUrq1bz7EPgRobr+vOhpeM6z0X4w==}
+  '@eslint/css@0.10.0':
+    resolution: {integrity: sha512-pHoYRWS08oeU0qVez1pZCcbqHzoJnM5VMtrxH2nWDJ0ukq9DkwWV1BTY+PWK+eWBbndN9W0O9WjJTyAHsDoPOg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/eslintrc@3.3.1':
@@ -382,10 +382,6 @@ packages:
 
   '@eslint/plugin-kit@0.2.8':
     resolution: {integrity: sha512-ZAoA40rNMPwSm+AeHpCq8STiNAwzWLJuP8Xv4CHIc9wv/PSuExjMrmjfYNj682vW0OOiZ1HKxzvjQr9XZIisQA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  '@eslint/plugin-kit@0.3.1':
-    resolution: {integrity: sha512-0J+zgWxHN+xXONWIyPWKFMgVuJoZuGiIFu8yxk7RJjxkzpGmyja5wRFqZIVtjDVOQpV+Rw0iOAjYPE2eQyjr0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/plugin-kit@0.3.4':
@@ -434,7 +430,7 @@ packages:
     resolution: {directory: '', type: directory}
     engines: {node: '>=23.9.0'}
     peerDependencies:
-      '@eslint/css': ^0.1.0 || ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0 || ^0.6.0 || ^0.9.0
+      '@eslint/css': ^0.1.0 || ^0.2.0 || ^0.3.0 || ^0.4.0 || ^0.5.0 || ^0.6.0 || ^0.9.0 || ^0.10.0
       '@eslint/js': ^9.0.0
       '@eslint/markdown': ^4.0.0 || ^5.0.0 || ^6.0.0
       '@typescript-eslint/type-utils': ^8.0.0
@@ -2661,11 +2657,11 @@ snapshots:
       mdn-data: 2.21.0
       source-map-js: 1.2.1
 
-  '@eslint/css@0.9.0':
+  '@eslint/css@0.10.0':
     dependencies:
       '@eslint/core': 0.14.0
       '@eslint/css-tree': 3.6.1
-      '@eslint/plugin-kit': 0.3.1
+      '@eslint/plugin-kit': 0.3.4
 
   '@eslint/eslintrc@3.3.1':
     dependencies:
@@ -2703,11 +2699,6 @@ snapshots:
   '@eslint/plugin-kit@0.2.8':
     dependencies:
       '@eslint/core': 0.13.0
-      levn: 0.4.1
-
-  '@eslint/plugin-kit@0.3.1':
-    dependencies:
-      '@eslint/core': 0.14.0
       levn: 0.4.1
 
   '@eslint/plugin-kit@0.3.4':
@@ -2749,9 +2740,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(fa6805c3e0a29991f5424febdf0ed1ff)':
+  '@re-taro/configs@file:(787cac9f8f6b1cad00ab3607dfd47b40)':
     dependencies:
-      '@eslint/css': 0.9.0
+      '@eslint/css': 0.10.0
       '@eslint/js': 9.32.0
       '@eslint/markdown': 6.3.0
       '@typescript-eslint/type-utils': 8.38.0(eslint@9.32.0)(typescript@5.8.3)
