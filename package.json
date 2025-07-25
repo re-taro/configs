@@ -152,7 +152,7 @@
 	},
 	"devDependencies": {
 		"@eslint/css": "0.9.0",
-		"@eslint/js": "9.31.0",
+		"@eslint/js": "9.32.0",
 		"@eslint/markdown": "6.3.0",
 		"@re-taro/configs": "file:.",
 		"@types/eslint-plugin-jsx-a11y": "6.10.0",
@@ -160,7 +160,7 @@
 		"@typescript-eslint/type-utils": "8.38.0",
 		"@typescript-eslint/utils": "8.38.0",
 		"@vitest/eslint-plugin": "1.2.7",
-		"eslint": "9.31.0",
+		"eslint": "9.32.0",
 		"eslint-config-flat-gitignore": "2.1.0",
 		"eslint-config-prettier": "10.1.8",
 		"eslint-flat-config-utils": "2.1.0",
