@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(7f0dcd15d959277f10db2b576aa864b0)
+        version: file:(10857bb0d701ed21c461971338a44711)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -52,8 +52,8 @@ importers:
         specifier: 10.1.8
         version: 10.1.8(eslint@9.32.0)
       eslint-flat-config-utils:
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.1.1
+        version: 2.1.1
       eslint-import-resolver-typescript:
         specifier: 4.4.4
         version: 4.4.4(eslint-plugin-import-x@4.6.1(eslint@9.32.0)(typescript@5.8.3))(eslint@9.32.0)
@@ -1204,8 +1204,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-flat-config-utils@2.1.0:
-    resolution: {integrity: sha512-6fjOJ9tS0k28ketkUcQ+kKptB4dBZY2VijMZ9rGn8Cwnn1SH0cZBoPXT8AHBFHxmHcLFQK9zbELDinZ2Mr1rng==}
+  eslint-flat-config-utils@2.1.1:
+    resolution: {integrity: sha512-K8eaPkBemHkfbYsZH7z4lZ/tt6gNSsVh535Wh9W9gQBS2WjvfUbbVr2NZR3L1yiRCLuOEimYfPxCxODczD4Opg==}
 
   eslint-import-context@0.1.8:
     resolution: {integrity: sha512-bq+F7nyc65sKpZGT09dY0S0QrOnQtuDVIfyTGQ8uuvtMIF7oHp6CEP3mouN0rrnYF3Jqo6Ke0BfU/5wASZue1w==}
@@ -2752,7 +2752,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(7f0dcd15d959277f10db2b576aa864b0)':
+  '@re-taro/configs@file:(10857bb0d701ed21c461971338a44711)':
     dependencies:
       '@eslint/css': 0.9.0
       '@eslint/js': 9.32.0
@@ -2762,7 +2762,7 @@ snapshots:
       '@vitest/eslint-plugin': 1.2.7(eslint@9.32.0)(typescript@5.8.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@22.16.5)(tsx@4.20.3))
       eslint-config-flat-gitignore: 2.1.0(eslint@9.32.0)
       eslint-config-prettier: 10.1.8(eslint@9.32.0)
-      eslint-flat-config-utils: 2.1.0
+      eslint-flat-config-utils: 2.1.1
       eslint-plugin-import-x: 4.6.1(eslint@9.32.0)(typescript@5.8.3)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.32.0)
       eslint-plugin-n: 17.21.3(eslint@9.32.0)(typescript@5.8.3)
@@ -3593,7 +3593,7 @@ snapshots:
     dependencies:
       eslint: 9.32.0
 
-  eslint-flat-config-utils@2.1.0:
+  eslint-flat-config-utils@2.1.1:
     dependencies:
       pathe: 2.0.3
 
