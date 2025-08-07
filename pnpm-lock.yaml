@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(83987f2df92c65e6050addbd9cae2f03)
+        version: file:(bff4219b427df3aaf4297afac7df95ae)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -76,8 +76,8 @@ importers:
         specifier: 5.2.0
         version: 5.2.0(eslint@9.32.0)
       eslint-plugin-regexp:
-        specifier: 2.9.0
-        version: 2.9.0(eslint@9.32.0)
+        specifier: 2.9.1
+        version: 2.9.1(eslint@9.32.0)
       eslint-plugin-storybook:
         specifier: 9.0.18
         version: 9.0.18(eslint@9.32.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.8.3)
@@ -1274,8 +1274,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
 
-  eslint-plugin-regexp@2.9.0:
-    resolution: {integrity: sha512-9WqJMnOq8VlE/cK+YAo9C9YHhkOtcEtEk9d12a+H7OSZFwlpI6stiHmYPGa2VE0QhTzodJyhlyprUaXDZLgHBw==}
+  eslint-plugin-regexp@2.9.1:
+    resolution: {integrity: sha512-JwK6glV/aoYDxvXcrvMQbw/pByBewZwqXVSBzzjot3GxSbmjDYuWU4LWiLdBO8JKi4o8A1+rygO6JWRBg4qAQQ==}
     engines: {node: ^18 || >=20}
     peerDependencies:
       eslint: '>=8.44.0'
@@ -2752,7 +2752,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(83987f2df92c65e6050addbd9cae2f03)':
+  '@re-taro/configs@file:(bff4219b427df3aaf4297afac7df95ae)':
     dependencies:
       '@eslint/css': 0.9.0
       '@eslint/js': 9.32.0
@@ -2769,7 +2769,7 @@ snapshots:
       eslint-plugin-promise: 7.2.1(eslint@9.32.0)
       eslint-plugin-react: 7.37.5(eslint@9.32.0)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.32.0)
-      eslint-plugin-regexp: 2.9.0(eslint@9.32.0)
+      eslint-plugin-regexp: 2.9.1(eslint@9.32.0)
       eslint-plugin-storybook: 9.0.18(eslint@9.32.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.8.3)
       eslint-plugin-unicorn: 59.0.1(eslint@9.32.0)
       eslint-plugin-unused-imports: 4.1.4(@typescript-eslint/eslint-plugin@8.38.0(@typescript-eslint/parser@8.38.0(eslint@9.32.0)(typescript@5.8.3))(eslint@9.32.0)(typescript@5.8.3))(eslint@9.32.0)
@@ -3719,7 +3719,7 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-regexp@2.9.0(eslint@9.32.0):
+  eslint-plugin-regexp@2.9.1(eslint@9.32.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.32.0)
       '@eslint-community/regexpp': 4.12.1
