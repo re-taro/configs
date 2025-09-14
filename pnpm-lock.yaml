@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(361bae2e1a27a89bf8a49ec008ebf03c)
+        version: file:(847997aedef1794d97f3ffd6f5004b20)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -64,8 +64,8 @@ importers:
         specifier: 6.10.2
         version: 6.10.2(eslint@9.35.0)
       eslint-plugin-n:
-        specifier: 17.21.3
-        version: 17.21.3(eslint@9.35.0)(typescript@5.9.2)
+        specifier: 17.22.0
+        version: 17.22.0(eslint@9.35.0)(typescript@5.9.2)
       eslint-plugin-promise:
         specifier: 7.2.1
         version: 7.2.1(eslint@9.35.0)
@@ -1256,8 +1256,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-n@17.21.3:
-    resolution: {integrity: sha512-MtxYjDZhMQgsWRm/4xYLL0i2EhusWT7itDxlJ80l1NND2AL2Vi5Mvneqv/ikG9+zpran0VsVRXTEHrpLmUZRNw==}
+  eslint-plugin-n@17.22.0:
+    resolution: {integrity: sha512-+YQ4dW8gg3eVZ3A8lL6zugEmA+Le5IEpCXsI8vKvDvSIB8gEh2N3PKqDwI+J8uLb7nphTJkwiv2e5OlnEDNvpQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -2763,7 +2763,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(361bae2e1a27a89bf8a49ec008ebf03c)':
+  '@re-taro/configs@file:(847997aedef1794d97f3ffd6f5004b20)':
     dependencies:
       '@eslint/css': 0.9.0
       '@eslint/js': 9.35.0
@@ -2776,7 +2776,7 @@ snapshots:
       eslint-flat-config-utils: 2.1.1
       eslint-plugin-import-x: 4.6.1(eslint@9.35.0)(typescript@5.9.2)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.35.0)
-      eslint-plugin-n: 17.21.3(eslint@9.35.0)(typescript@5.9.2)
+      eslint-plugin-n: 17.22.0(eslint@9.35.0)(typescript@5.9.2)
       eslint-plugin-promise: 7.2.1(eslint@9.35.0)
       eslint-plugin-react: 7.37.5(eslint@9.35.0)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.35.0)
@@ -3640,7 +3640,7 @@ snapshots:
 
   eslint-plugin-es-x@7.8.0(eslint@9.35.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.35.0)
+      '@eslint-community/eslint-utils': 4.8.0(eslint@9.35.0)
       '@eslint-community/regexpp': 4.12.1
       eslint: 9.35.0
       eslint-compat-utils: 0.5.1(eslint@9.35.0)
@@ -3684,9 +3684,9 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-n@17.21.3(eslint@9.35.0)(typescript@5.9.2):
+  eslint-plugin-n@17.22.0(eslint@9.35.0)(typescript@5.9.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.35.0)
+      '@eslint-community/eslint-utils': 4.8.0(eslint@9.35.0)
       enhanced-resolve: 5.18.1
       eslint: 9.35.0
       eslint-plugin-es-x: 7.8.0(eslint@9.35.0)
