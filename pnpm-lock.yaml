@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(4c464cee7595c2e25e7351570e205e7b)
+        version: file:(6915a2562f650d61bc051a2a33457649)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -64,8 +64,8 @@ importers:
         specifier: 6.10.2
         version: 6.10.2(eslint@9.35.0)
       eslint-plugin-n:
-        specifier: 17.23.0
-        version: 17.23.0(eslint@9.35.0)(typescript@5.9.2)
+        specifier: 17.23.1
+        version: 17.23.1(eslint@9.35.0)(typescript@5.9.2)
       eslint-plugin-promise:
         specifier: 7.2.1
         version: 7.2.1(eslint@9.35.0)
@@ -1251,8 +1251,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-n@17.23.0:
-    resolution: {integrity: sha512-aPePGxUr5LezcXmMRBF83eK1MmqUYY1NdLdHC+jdpfc5b98eL7yDXY20gXJ6DcTxrHBhrLsfYYqo7J+m0h9YXQ==}
+  eslint-plugin-n@17.23.1:
+    resolution: {integrity: sha512-68PealUpYoHOBh332JLLD9Sj7OQUDkFpmcfqt8R9sySfFSeuGJjMTJQvCRRB96zO3A/PELRLkPrzsHmzEFQQ5A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -2752,7 +2752,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(4c464cee7595c2e25e7351570e205e7b)':
+  '@re-taro/configs@file:(6915a2562f650d61bc051a2a33457649)':
     dependencies:
       '@eslint/css': 0.9.0
       '@eslint/js': 9.35.0
@@ -2765,7 +2765,7 @@ snapshots:
       eslint-flat-config-utils: 2.1.1
       eslint-plugin-import-x: 4.6.1(eslint@9.35.0)(typescript@5.9.2)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.35.0)
-      eslint-plugin-n: 17.23.0(eslint@9.35.0)(typescript@5.9.2)
+      eslint-plugin-n: 17.23.1(eslint@9.35.0)(typescript@5.9.2)
       eslint-plugin-promise: 7.2.1(eslint@9.35.0)
       eslint-plugin-react: 7.37.5(eslint@9.35.0)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.35.0)
@@ -2989,7 +2989,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.1
+      semver: 7.7.2
       ts-api-utils: 2.1.0(typescript@5.9.2)
       typescript: 5.9.2
     transitivePeerDependencies:
@@ -3678,7 +3678,7 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-n@17.23.0(eslint@9.35.0)(typescript@5.9.2):
+  eslint-plugin-n@17.23.1(eslint@9.35.0)(typescript@5.9.2):
     dependencies:
       '@eslint-community/eslint-utils': 4.8.0(eslint@9.35.0)
       enhanced-resolve: 5.18.1
