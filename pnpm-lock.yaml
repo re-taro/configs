@@ -26,7 +26,7 @@ importers:
         version: 6.3.0
       '@re-taro/configs':
         specifier: file:.
-        version: file:(6915a2562f650d61bc051a2a33457649)
+        version: file:(f9b1d9d954a049afc16c218d09b3f94f)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.0
         version: 6.10.0
@@ -79,8 +79,8 @@ importers:
         specifier: 2.10.0
         version: 2.10.0(eslint@9.35.0)
       eslint-plugin-storybook:
-        specifier: 9.1.6
-        version: 9.1.6(eslint@9.35.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.9.2)
+        specifier: 9.1.7
+        version: 9.1.7(eslint@9.35.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.9.2)
       eslint-plugin-unicorn:
         specifier: 61.0.2
         version: 61.0.2(eslint@9.35.0)
@@ -1281,12 +1281,12 @@ packages:
     peerDependencies:
       eslint: '>=8.44.0'
 
-  eslint-plugin-storybook@9.1.6:
-    resolution: {integrity: sha512-4NLf8lOT7Nl+m9aipVHJczyt/Dp6BzHzyNq4nhaEUjoZFGKMhPa52vSbuLyQYX7IrcrYPlM37X8dFGo/EIE9JA==}
+  eslint-plugin-storybook@9.1.7:
+    resolution: {integrity: sha512-Bq9VNutFGX7T0jw7luWt5eEyRFInIsE0+FSaXdayqBNW6NPaGuE+hoBhhTowvohNqEqn5DXwIkPHiI1GhONE9g==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       eslint: '>=8'
-      storybook: ^9.1.6
+      storybook: ^9.1.7
 
   eslint-plugin-unicorn@61.0.2:
     resolution: {integrity: sha512-zLihukvneYT7f74GNbVJXfWIiNQmkc/a9vYBTE4qPkQZswolWNdu+Wsp9sIXno1JOzdn6OUwLPd19ekXVkahRA==}
@@ -2752,7 +2752,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@re-taro/configs@file:(6915a2562f650d61bc051a2a33457649)':
+  '@re-taro/configs@file:(f9b1d9d954a049afc16c218d09b3f94f)':
     dependencies:
       '@eslint/css': 0.9.0
       '@eslint/js': 9.35.0
@@ -2770,7 +2770,7 @@ snapshots:
       eslint-plugin-react: 7.37.5(eslint@9.35.0)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.35.0)
       eslint-plugin-regexp: 2.10.0(eslint@9.35.0)
-      eslint-plugin-storybook: 9.1.6(eslint@9.35.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.9.2)
+      eslint-plugin-storybook: 9.1.7(eslint@9.35.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.9.2)
       eslint-plugin-unicorn: 61.0.2(eslint@9.35.0)
       eslint-plugin-unused-imports: 4.2.0(@typescript-eslint/eslint-plugin@8.39.1(@typescript-eslint/parser@8.39.1(eslint@9.35.0)(typescript@5.9.2))(eslint@9.35.0)(typescript@5.9.2))(eslint@9.35.0)
       globals: 16.4.0
@@ -3735,7 +3735,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-storybook@9.1.6(eslint@9.35.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.9.2):
+  eslint-plugin-storybook@9.1.7(eslint@9.35.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.9.2):
     dependencies:
       '@typescript-eslint/utils': 8.39.1(eslint@9.35.0)(typescript@5.9.2)
       eslint: 9.35.0
