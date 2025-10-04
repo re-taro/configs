@@ -28,8 +28,8 @@ importers:
         specifier: file:.
         version: file:(e4fb925497a20d7d0d5dde7e731eaba9)
       '@types/eslint-plugin-jsx-a11y':
-        specifier: 6.10.0
-        version: 6.10.0
+        specifier: 6.10.1
+        version: 6.10.1
       '@types/node':
         specifier: 22.18.8
         version: 22.18.8
@@ -601,11 +601,8 @@ packages:
   '@types/doctrine@0.0.9':
     resolution: {integrity: sha512-eOIHzCUSH7SMfonMG1LsC2f8vxBFtho6NGBznK41R84YzPuvSBzrhEps33IsQiOW9+VL6NQ9DbjQJznk/S4uRA==}
 
-  '@types/eslint-plugin-jsx-a11y@6.10.0':
-    resolution: {integrity: sha512-TGKmk2gO6DrvTVADNOGQMqn3SzqcFcJILFnXNllQA34us9uClS3/AsL/cERPz6jS9ePI3bx+1q8/d2GZsxPVYw==}
-
-  '@types/eslint@9.6.1':
-    resolution: {integrity: sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag==}
+  '@types/eslint-plugin-jsx-a11y@6.10.1':
+    resolution: {integrity: sha512-5RtuPVe0xz8BAhrkn2oww6Uw885atf962Q4fqZo48QdO3EQA7oCEDSXa6optgJ1ZMds3HD9ITK5bfm4AWuoXFQ==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -2905,14 +2902,12 @@ snapshots:
 
   '@types/doctrine@0.0.9': {}
 
-  '@types/eslint-plugin-jsx-a11y@6.10.0':
+  '@types/eslint-plugin-jsx-a11y@6.10.1':
     dependencies:
-      '@types/eslint': 9.6.1
-
-  '@types/eslint@9.6.1':
-    dependencies:
-      '@types/estree': 1.0.6
-      '@types/json-schema': 7.0.15
+      eslint: 9.37.0
+    transitivePeerDependencies:
+      - jiti
+      - supports-color
 
   '@types/estree@1.0.6': {}
 
