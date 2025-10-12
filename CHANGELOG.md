@@ -1,5 +1,51 @@
 # Changelog
 
+## [1.3.10](https://github.com/re-taro/configs/compare/v1.3.9...v1.3.10) (2025-10-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @eslint/css to v0.13.0 ([#199](https://github.com/re-taro/configs/issues/199)) ([c4de671](https://github.com/re-taro/configs/commit/c4de671d5b4c8a5e440ce478822dbb4cc753ed1b))
+* **deps:** update dependency @eslint/markdown to v6.6.0 ([#68](https://github.com/re-taro/configs/issues/68)) ([d67ec27](https://github.com/re-taro/configs/commit/d67ec2796eb193b37588fe2c76179e1b39a3a58b))
+* **deps:** update dependency @eslint/markdown to v7 ([#200](https://github.com/re-taro/configs/issues/200)) ([479fb19](https://github.com/re-taro/configs/commit/479fb19589139102f9694ff4d2ac51ae76a98a4b))
+* **deps:** update dependency @vitest/eslint-plugin to v1.3.17 ([#179](https://github.com/re-taro/configs/issues/179)) ([ec84e28](https://github.com/re-taro/configs/commit/ec84e285d038bd4954f182f11d7f0284bc4086ab))
+* **deps:** update dependency eslint-config-prettier to v10.1.7 ([#205](https://github.com/re-taro/configs/issues/205)) ([45a6418](https://github.com/re-taro/configs/commit/45a6418375992e38c978daf014c62f000f68e307))
+* **deps:** update dependency eslint-config-prettier to v10.1.8 ([#207](https://github.com/re-taro/configs/issues/207)) ([2d9f43e](https://github.com/re-taro/configs/commit/2d9f43e75fbc13437b888c2ee1b6cdcecc88abd4))
+* **deps:** update dependency eslint-flat-config-utils to v2.1.1 ([#217](https://github.com/re-taro/configs/issues/217)) ([1258d49](https://github.com/re-taro/configs/commit/1258d495f89db49a69447db686654b4966e89976))
+* **deps:** update dependency eslint-flat-config-utils to v2.1.4 ([#265](https://github.com/re-taro/configs/issues/265)) ([bfd1524](https://github.com/re-taro/configs/commit/bfd15248d5de5c729164c866810bb48eceaa97c9))
+* **deps:** update dependency eslint-plugin-import-x to v4.16.1 ([#14](https://github.com/re-taro/configs/issues/14)) ([98b5893](https://github.com/re-taro/configs/commit/98b58932860fb6d1acbf22b996c5ffb89b7e79b3))
+* **deps:** update dependency eslint-plugin-n to v17.21.1 ([#214](https://github.com/re-taro/configs/issues/214)) ([f8aac75](https://github.com/re-taro/configs/commit/f8aac75274aaf204da17131fb9e13607be424b69))
+* **deps:** update dependency eslint-plugin-n to v17.21.2 ([#215](https://github.com/re-taro/configs/issues/215)) ([4cfad73](https://github.com/re-taro/configs/commit/4cfad7391f05dd350de429fa8bf6a8a0584cb755))
+* **deps:** update dependency eslint-plugin-n to v17.21.3 ([#216](https://github.com/re-taro/configs/issues/216)) ([a036ffb](https://github.com/re-taro/configs/commit/a036ffb4f384ed062188a8ed6861f1198ee2d4c5))
+* **deps:** update dependency eslint-plugin-n to v17.22.0 ([#255](https://github.com/re-taro/configs/issues/255)) ([d8ebc42](https://github.com/re-taro/configs/commit/d8ebc42bdb9530d756577b0219be609752bf6cf8))
+* **deps:** update dependency eslint-plugin-n to v17.23.0 ([#258](https://github.com/re-taro/configs/issues/258)) ([9952aa9](https://github.com/re-taro/configs/commit/9952aa941937e18c00ec94fff0232844ae6a399b))
+* **deps:** update dependency eslint-plugin-n to v17.23.1 ([#262](https://github.com/re-taro/configs/issues/262)) ([8ff2fec](https://github.com/re-taro/configs/commit/8ff2fec528dbfa69909ad83c9d28d49404684725))
+* **deps:** update dependency eslint-plugin-regexp to v2.10.0 ([#224](https://github.com/re-taro/configs/issues/224)) ([4fddc62](https://github.com/re-taro/configs/commit/4fddc624dd1f9f831f99f5043fafcd87d016d3be))
+* **deps:** update dependency eslint-plugin-regexp to v2.9.1 ([#219](https://github.com/re-taro/configs/issues/219)) ([3448a1c](https://github.com/re-taro/configs/commit/3448a1ccf0df544949f8398b74c282e36e7c276d))
+* **deps:** update dependency eslint-plugin-storybook to v9.0.18 ([#211](https://github.com/re-taro/configs/issues/211)) ([93bbea4](https://github.com/re-taro/configs/commit/93bbea473e6539f3e5fcf52b96d7c59548a0507b))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.1 ([#222](https://github.com/re-taro/configs/issues/222)) ([ec962f4](https://github.com/re-taro/configs/commit/ec962f4de258a685104c8385c8abc4662e37d911))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.10 ([#273](https://github.com/re-taro/configs/issues/273)) ([5c55774](https://github.com/re-taro/configs/commit/5c5577420a6fa922c8129cc2376055d2abea26a8))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.2 ([#231](https://github.com/re-taro/configs/issues/231)) ([abd7461](https://github.com/re-taro/configs/commit/abd7461fd188f9c446b3d279d8ab5925d3390dd0))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.3 ([#240](https://github.com/re-taro/configs/issues/240)) ([b2a3147](https://github.com/re-taro/configs/commit/b2a3147ff32ce1182a4ed00777a34edeb63e494d))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.5 ([#245](https://github.com/re-taro/configs/issues/245)) ([db2460b](https://github.com/re-taro/configs/commit/db2460b7c98d7117b5ffb63c0a98b50b45f40d2f))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.6 ([#256](https://github.com/re-taro/configs/issues/256)) ([5b40b8a](https://github.com/re-taro/configs/commit/5b40b8a9e75b64053799b1b8e2aac295d79dedf5))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.7 ([#263](https://github.com/re-taro/configs/issues/263)) ([65e5d39](https://github.com/re-taro/configs/commit/65e5d3928ef3be812bd7279dfe4646ccdc55f051))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.8 ([#267](https://github.com/re-taro/configs/issues/267)) ([3600404](https://github.com/re-taro/configs/commit/3600404b6696240ee05a0ce980d0663d5f3928d4))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.9 ([#270](https://github.com/re-taro/configs/issues/270)) ([0e63a90](https://github.com/re-taro/configs/commit/0e63a9076de5c4af96d0bb06a25b9aa5d34b3f3c))
+* **deps:** update dependency eslint-plugin-unicorn to v61 ([#248](https://github.com/re-taro/configs/issues/248)) ([b5b669f](https://github.com/re-taro/configs/commit/b5b669fe05836b0ed4e14ffc675775399e1c8c37))
+* **deps:** update dependency eslint-plugin-unused-imports to v4.2.0 ([#236](https://github.com/re-taro/configs/issues/236)) ([254bc87](https://github.com/re-taro/configs/commit/254bc87a5043d8886f92214d9b324fef2f462ac5))
+* **deps:** update dependency eslint-typegen to v2.3.0 ([#212](https://github.com/re-taro/configs/issues/212)) ([8a6c1fb](https://github.com/re-taro/configs/commit/8a6c1fbb6ac898852a1755a7e3925514c7a1e8f2))
+* **deps:** update dependency globals to v16.4.0 ([#250](https://github.com/re-taro/configs/issues/250)) ([370eca7](https://github.com/re-taro/configs/commit/370eca79c62fcf734855b7aefa0c397b0e3f47ab))
+* **deps:** update eslint monorepo to v9.32.0 ([#213](https://github.com/re-taro/configs/issues/213)) ([d923103](https://github.com/re-taro/configs/commit/d9231039ad5f5d35a50a383e14fdec21a3311525))
+* **deps:** update eslint monorepo to v9.33.0 ([#226](https://github.com/re-taro/configs/issues/226)) ([e208b76](https://github.com/re-taro/configs/commit/e208b767b039a9fea2e05774b49e89b6921bdbdb))
+* **deps:** update eslint monorepo to v9.34.0 ([#241](https://github.com/re-taro/configs/issues/241)) ([01f7b2d](https://github.com/re-taro/configs/commit/01f7b2d50ae244ea96d6653a2043273154c95718))
+* **deps:** update eslint monorepo to v9.35.0 ([#246](https://github.com/re-taro/configs/issues/246)) ([43a2860](https://github.com/re-taro/configs/commit/43a2860a82abeebe65bd7132dd72c645030274ae))
+* **deps:** update eslint monorepo to v9.36.0 ([#264](https://github.com/re-taro/configs/issues/264)) ([325042c](https://github.com/re-taro/configs/commit/325042c1ff9165d2894a31c5190c6d46c2c98acd))
+* **deps:** update eslint monorepo to v9.37.0 ([#276](https://github.com/re-taro/configs/issues/276)) ([918ed8f](https://github.com/re-taro/configs/commit/918ed8fc8c2fd1cf3d01eb206ce9792fd0e21513))
+* **deps:** update typescript-eslint monorepo to v8.38.0 ([#210](https://github.com/re-taro/configs/issues/210)) ([bc87e62](https://github.com/re-taro/configs/commit/bc87e62f235f0ba11ddafd04c0b59e3d3f590e8b))
+* **deps:** update typescript-eslint monorepo to v8.39.0 ([#223](https://github.com/re-taro/configs/issues/223)) ([bd643be](https://github.com/re-taro/configs/commit/bd643bec6f8af11460de10af43f523b2be52c78e))
+* **deps:** update typescript-eslint monorepo to v8.39.1 ([#232](https://github.com/re-taro/configs/issues/232)) ([f94b61b](https://github.com/re-taro/configs/commit/f94b61b0bea51788f9858d678ba62100f8facc5b))
+
 ## [1.3.9](https://github.com/re-taro/configs/compare/v1.3.8...v1.3.9) (2025-07-15)
 
 
