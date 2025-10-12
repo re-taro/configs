@@ -62,7 +62,7 @@ export const imports = async (
 					...imports.flatConfigs.typescript.settings,
 				},
 				rules: {
-					...renameRules(imports.flatConfigs.typescript.rules, {
+					...renameRules(imports.flatConfigs.typescript.rules as Record<string, any>, {
 						'import-x': 'import',
 					}),
 				},

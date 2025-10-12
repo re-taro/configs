@@ -1,3 +1,5 @@
-saveExact: true
 onlyBuiltDependencies:
   - esbuild
+  - unrs-resolver
+
+saveExact: true
