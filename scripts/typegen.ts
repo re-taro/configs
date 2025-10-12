@@ -64,8 +64,6 @@ const markdown = (): PresetModule => {
 					},
 				},
 			};
-
-			// @ts-expect-error TS2322 Type '{ plugins: { markdown: { rules: { "fenced-code-language": Rule.RuleModule; "heading-increment": Rule.RuleModule; ... 4 more ...; "no-missing-label-refs": Rule.RuleModule; }; }; }; }' is not assignable to type 'Config<RulesRecord>'.
 			return [configs];
 		},
 	};
