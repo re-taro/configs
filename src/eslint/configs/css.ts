@@ -14,15 +14,13 @@ export interface CssOptions {
 	/**
 	 * Whether to enable custom syntax
 	 *
-	 * If 'tailwind', it will enable [Tailwind
-	 * Syntax](https://github.com/eslint/css?tab=readme-ov-file#configuring-tailwind-syntax), otherwise it will enable
 	 * [custom syntax](https://github.com/eslint/css?tab=readme-ov-file#configuring-custom-syntax)
 	 *
 	 * @default false
 	 */
 	// TODO: If this issue is resolved, we should define more strict types for customSyntax
 	// https://github.com/eslint/css/issues/56
-	customSyntax?: false | 'tailwind' | Record<string, any>;
+	customSyntax?: false | Record<string, any>;
 }
 
 export const css = async (options: OverridesOptions<CssRules> & CssOptions = {}): Promise<Linter.Config[]> => {
@@ -47,18 +45,9 @@ export const css = async (options: OverridesOptions<CssRules> & CssOptions = {})
 		};
 	}
 	if (customSyntax) {
-		// eslint-disable-next-line ts/no-unnecessary-condition
-		if (typeof customSyntax === 'string' && customSyntax === 'tailwind') {
-			const { tailwindSyntax } = await loadPlugin<typeof import('@eslint/css/syntax')>('@eslint/css/syntax');
-
-			core.languageOptions = {
-				customSyntax: tailwindSyntax,
-			};
-		} else {
-			core.languageOptions = {
-				customSyntax,
-			};
-		}
+		core.languageOptions = {
+			customSyntax,
+		};
 	}
 
 	return [
