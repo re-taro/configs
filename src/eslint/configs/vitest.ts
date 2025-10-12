@@ -27,6 +27,7 @@ export const vitest = async (options: OverridesOptions<VitestRules> & VitestOpti
 		name: 'vitest/vitest/recommended',
 		files: GLOB_TESTS,
 		plugins: {
+			// @ts-expect-error TS2322 Type '{ ... 73 mo...' is not assignable to type 'Plugin'.
 			vitest,
 		},
 		rules: {
