@@ -5,7 +5,7 @@ import type { Linter } from 'eslint';
  * Combine array and non-array configs into a single array.
  */
 export const combine = async (...configs: Awaitable<Linter.Config | Linter.Config[]>[]): Promise<Linter.Config[]> => {
-	const resolved = await Promise.all(configs);
+	const resolved = await Promise.all(configs.map(async (config) => await Promise.resolve(config)));
 
 	return resolved.flat();
 };

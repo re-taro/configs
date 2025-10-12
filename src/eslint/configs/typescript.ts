@@ -47,7 +47,6 @@ export const typescript = async (
 			name: 'typescript-eslint/typescript/recommended',
 			files,
 			languageOptions: {
-				// @ts-expect-error TS2322 Type '{ meta?: { }}' is not assignable to type 'Parser | undefined'.
 				parser: ts.parser,
 				parserOptions: {
 					extraFileExtensions: extraFileExtensions.map((ext) => ext),
@@ -56,7 +55,6 @@ export const typescript = async (
 				},
 			},
 			plugins: {
-				// @ts-expect-error TS2375 Type 'ESLint.Plugin' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
 				'ts': ts.plugin,
 				// @ts-expect-error TS2375 Type 'ESLint.Plugin' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
 				're-taro': re_taro,
