@@ -60,9 +60,15 @@ export const typescript = async (
 				're-taro': re_taro,
 			},
 			rules: {
-				...renameRules(ts.configs.strictTypeChecked.at(-1)?.rules!, { '@typescript-eslint': 'ts' }),
-				...renameRules(ts.configs.stylisticTypeChecked.at(-1)?.rules!, { '@typescript-eslint': 'ts' }),
-				...renameRules(ts.configs.eslintRecommended.rules!, { '@typescript-eslint': 'ts' }),
+				...renameRules(ts.configs.strictTypeChecked.at(-1)?.rules!, {
+					'@typescript-eslint': 'ts',
+				}),
+				...renameRules(ts.configs.stylisticTypeChecked.at(-1)?.rules!, {
+					'@typescript-eslint': 'ts',
+				}),
+				...renameRules(ts.configs.eslintRecommended.rules!, {
+					'@typescript-eslint': 'ts',
+				}),
 			},
 		},
 		{

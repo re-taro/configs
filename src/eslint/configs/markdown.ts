@@ -50,7 +50,9 @@ export const markdown = async (
 				md,
 			},
 			rules: {
-				...renameRules(md.configs.recommended.at(0)?.rules!, { markdown: 'md' }),
+				...renameRules(md.configs.recommended.at(0)?.rules!, {
+					markdown: 'md',
+				}),
 				...(fencedCodeBlocks ? renameRules(md.configs.processor.at(-1)?.rules!, { markdown: 'md' }) : {}),
 			},
 		},
