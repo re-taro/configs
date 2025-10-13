@@ -1,5 +1,5 @@
 import { re_taro } from '@re-taro/configs/prettier';
 
 export default re_taro({
-	ignoreFiles: ['CHANGELOG.md'],
+	ignoreFiles: ['./CHANGELOG.md'],
 });

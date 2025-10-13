@@ -1,7 +1,9 @@
+import { req } from '../utils.js';
 import type { Config } from '../types.js';
 
 export const base = (): Config => {
 	return {
+		plugins: [req.resolve('@prettier/plugin-oxc')],
 		printWidth: 120,
 		tabWidth: 2,
 		useTabs: true,
