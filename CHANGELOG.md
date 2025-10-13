@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.11](https://github.com/re-taro/configs/compare/v1.3.10...v1.3.11) (2025-10-13)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v8.46.0 ([#237](https://github.com/re-taro/configs/issues/237)) ([a670365](https://github.com/re-taro/configs/commit/a6703653a163b1302be770e8c9edb0ce844164cc))
+
 ## [1.3.10](https://github.com/re-taro/configs/compare/v1.3.9...v1.3.10) (2025-10-12)
 
 
