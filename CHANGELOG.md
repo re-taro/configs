@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/re-taro/configs/compare/v1.3.11...v1.4.0) (2025-10-13)
+
+
+### Features
+
+* use plugin-oxc for parse ([#283](https://github.com/re-taro/configs/issues/283)) ([a58ae7c](https://github.com/re-taro/configs/commit/a58ae7c0006ea61a460fa8b4e94f12a38841a5ee))
+
 ## [1.3.11](https://github.com/re-taro/configs/compare/v1.3.10...v1.3.11) (2025-10-13)
 
 
