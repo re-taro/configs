@@ -30,6 +30,7 @@ export const markdown = async (
 	const md = await loadPlugin<typeof import('@eslint/markdown').default>('@eslint/markdown');
 
 	return [
+		// @ts-expect-error TS2357 Type 'undefined' is not assignable to type 'LanguageOptions'.ts(2375)
 		{
 			name: 'eslint/markdown/recommended',
 			files: [GLOB_MD],
@@ -46,7 +47,6 @@ export const markdown = async (
 					}
 				:	undefined,
 			plugins: {
-				// @ts-expect-error TS2322 Type 'typeof plugin' is not assignable to type 'Plugin'.
 				md,
 			},
 			rules: {

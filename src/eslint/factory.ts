@@ -64,6 +64,5 @@ export const re_taro = async (
 		loadPlugin<typeof import('eslint-config-prettier/flat')>('eslint-config-prettier/flat').then((c) => c),
 	];
 
-	// @ts-expect-error TS2345 Argument of type 'Awaitable<Config<RulesRecord>[]>' is not assignable to parameter of type 'ResolvableFlatConfig<Config<RulesRecord>>'.
 	return await new FlatConfigComposer().append(...baseConfigs, ...configs).append(...finalConfigs);
 };

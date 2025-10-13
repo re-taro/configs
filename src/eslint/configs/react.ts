@@ -22,7 +22,6 @@ export const react = async (options: OverridesOptions<ReactRules> = {}): Promise
 			plugins: {
 				react,
 				'react-hooks': reactHooks,
-				// @ts-expect-error TS2375 Type 'Plugin & { configs: { ... }; }' is not assignable to type 'Plugin' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
 				'jsx-a11y': jsxA11y,
 			},
 			rules: {
