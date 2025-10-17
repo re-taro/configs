@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.1](https://github.com/re-taro/configs/compare/v1.4.0...v1.4.1) (2025-10-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vitest/eslint-plugin to v1.3.18 ([#285](https://github.com/re-taro/configs/issues/285)) ([33bb1b3](https://github.com/re-taro/configs/commit/33bb1b3239926f5d29d898f4bf6059280a8794c0))
+* **deps:** update dependency @vitest/eslint-plugin to v1.3.19 ([#290](https://github.com/re-taro/configs/issues/290)) ([701376c](https://github.com/re-taro/configs/commit/701376cdc2e01834d3b4011b915525d68a09f94f))
+* **deps:** update dependency @vitest/eslint-plugin to v1.3.20 ([#291](https://github.com/re-taro/configs/issues/291)) ([7d82f63](https://github.com/re-taro/configs/commit/7d82f63106fbd4f67d1ca3b16b583c9431adc678))
+* **deps:** update dependency @vitest/eslint-plugin to v1.3.23 ([#295](https://github.com/re-taro/configs/issues/295)) ([79b2a7e](https://github.com/re-taro/configs/commit/79b2a7e382d177106fe4a54aab61eb061f2a325b))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.11 ([#292](https://github.com/re-taro/configs/issues/292)) ([adb1f12](https://github.com/re-taro/configs/commit/adb1f125a26b279defe5b65ec6289704dfcb9936))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.12 ([#293](https://github.com/re-taro/configs/issues/293)) ([e094831](https://github.com/re-taro/configs/commit/e094831dfba377711123a50cb416b6cd3c8eff81))
+* **deps:** update dependency eslint-plugin-storybook to v9.1.13 ([#296](https://github.com/re-taro/configs/issues/296)) ([52f54db](https://github.com/re-taro/configs/commit/52f54dbf1b68050a11a05078213249d6cc90da99))
+* **deps:** update typescript-eslint monorepo to v8.46.1 ([#286](https://github.com/re-taro/configs/issues/286)) ([d04b56d](https://github.com/re-taro/configs/commit/d04b56d504681ddbd5e23de3fb1369174279dd96))
+
 ## [1.4.0](https://github.com/re-taro/configs/compare/v1.3.11...v1.4.0) (2025-10-13)
 
 
