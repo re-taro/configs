@@ -22,14 +22,14 @@ importers:
         specifier: 9.37.0
         version: 9.37.0
       '@eslint/markdown':
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 7.4.1
+        version: 7.4.1
       '@prettier/plugin-oxc':
         specifier: 0.0.4
         version: 0.0.4
       '@re-taro/configs':
         specifier: file:.
-        version: file:(25357aabea56d70416f98936064342eb)
+        version: file:(ee68bc603826df40d9392f35821ae37f)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.1
         version: 6.10.1
@@ -361,8 +361,8 @@ packages:
     resolution: {integrity: sha512-jaS+NJ+hximswBG6pjNX0uEJZkrT0zwpVi3BA3vX22aFGjJjmgSTSmPpZCRKmoBL5VY/M6p0xsSJx7rk7sy5gg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/markdown@7.4.0':
-    resolution: {integrity: sha512-VQykmMjBb4tQoJOXVWXa+oQbQeCZlE7W3rAsOpmtpKLvJd75saZZ04PVVs7+zgMDJGghd4/gyFV6YlvdJFaeNQ==}
+  '@eslint/markdown@7.4.1':
+    resolution: {integrity: sha512-fhcQcylVqgb7GLPr2+6hlDQXK4J3d/fPY6qzk9/i7IYtQkIr15NKI5Zg39Dv2cV/bn5J0Znm69rmu9vJI/7Tlw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/object-schema@2.1.6':
@@ -2886,7 +2886,7 @@ snapshots:
 
   '@eslint/js@9.37.0': {}
 
-  '@eslint/markdown@7.4.0':
+  '@eslint/markdown@7.4.1':
     dependencies:
       '@eslint/core': 0.16.0
       '@eslint/plugin-kit': 0.4.0
@@ -3006,11 +3006,11 @@ snapshots:
     dependencies:
       oxc-parser: 0.74.0
 
-  '@re-taro/configs@file:(25357aabea56d70416f98936064342eb)':
+  '@re-taro/configs@file:(ee68bc603826df40d9392f35821ae37f)':
     dependencies:
       '@eslint/css': 0.13.0
       '@eslint/js': 9.37.0
-      '@eslint/markdown': 7.4.0
+      '@eslint/markdown': 7.4.1
       '@prettier/plugin-oxc': 0.0.4
       '@typescript-eslint/type-utils': 8.46.1(eslint@9.37.0)(typescript@5.9.3)
       '@typescript-eslint/utils': 8.46.1(eslint@9.37.0)(typescript@5.9.3)
