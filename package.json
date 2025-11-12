@@ -161,7 +161,7 @@
 		"@prettier/plugin-oxc": "0.0.4",
 		"@re-taro/configs": "file:.",
 		"@types/eslint-plugin-jsx-a11y": "6.10.1",
-		"@types/node": "22.19.0",
+		"@types/node": "22.19.1",
 		"@typescript-eslint/type-utils": "8.46.4",
 		"@typescript-eslint/utils": "8.46.4",
 		"@vitest/eslint-plugin": "1.3.26",
