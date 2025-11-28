@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.4.2](https://github.com/re-taro/configs/compare/v1.4.1...v1.4.2) (2025-11-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-storybook to v10.1.0 ([#350](https://github.com/re-taro/configs/issues/350)) ([1b11d5a](https://github.com/re-taro/configs/commit/1b11d5a72ccfaf3442c95cd65a4e1996aef248d3))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.1 ([#353](https://github.com/re-taro/configs/issues/353)) ([f881b4f](https://github.com/re-taro/configs/commit/f881b4fc8811272958493eb18ab02eda6262cf85))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.2 ([#355](https://github.com/re-taro/configs/issues/355)) ([d01dbff](https://github.com/re-taro/configs/commit/d01dbff43cc1c2f8ce2d1559973d1390175a7efd))
+* **deps:** update dependency prettier-plugin-jsdoc to v1.7.0 ([#354](https://github.com/re-taro/configs/issues/354)) ([fc4fb2f](https://github.com/re-taro/configs/commit/fc4fb2fcdeb8b8a238c9dcf1b8897046f30167a5))
+* **deps:** update typescript-eslint monorepo to v8.48.0 ([#347](https://github.com/re-taro/configs/issues/347)) ([bb1e08d](https://github.com/re-taro/configs/commit/bb1e08df2ff51ddd4624d1b1e90a1ddd5f29d0bd))
+
 ## [1.4.1](https://github.com/re-taro/configs/compare/v1.4.0...v1.4.1) (2025-11-22)
 
 
