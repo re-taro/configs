@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.4.2](https://github.com/re-taro/configs/compare/v1.4.1...v1.4.2) (2025-12-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-storybook to v10.1.0 ([#350](https://github.com/re-taro/configs/issues/350)) ([1b11d5a](https://github.com/re-taro/configs/commit/1b11d5a72ccfaf3442c95cd65a4e1996aef248d3))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.1 ([#353](https://github.com/re-taro/configs/issues/353)) ([f881b4f](https://github.com/re-taro/configs/commit/f881b4fc8811272958493eb18ab02eda6262cf85))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.10 ([#378](https://github.com/re-taro/configs/issues/378)) ([b00af00](https://github.com/re-taro/configs/commit/b00af00125508fd40d0ddeb4dfa71f0010c2c2bc))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.2 ([#355](https://github.com/re-taro/configs/issues/355)) ([d01dbff](https://github.com/re-taro/configs/commit/d01dbff43cc1c2f8ce2d1559973d1390175a7efd))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.3 ([#358](https://github.com/re-taro/configs/issues/358)) ([9d4c999](https://github.com/re-taro/configs/commit/9d4c999d32035a021edda0e752ceac0a8fce35d4))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.4 ([#362](https://github.com/re-taro/configs/issues/362)) ([cd746bb](https://github.com/re-taro/configs/commit/cd746bb5981f1b26d244e8a89d1c3c4280bc5b2b))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.5 ([#368](https://github.com/re-taro/configs/issues/368)) ([73ee25b](https://github.com/re-taro/configs/commit/73ee25be5fcbbeab8de29bca0696303e0a557029))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.6 ([#369](https://github.com/re-taro/configs/issues/369)) ([afe88a3](https://github.com/re-taro/configs/commit/afe88a3df8365eae56e96b540a4b8bc389f2384a))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.7 ([#371](https://github.com/re-taro/configs/issues/371)) ([f1f28c0](https://github.com/re-taro/configs/commit/f1f28c0ab72d14302977c7353c33575f3b8bfa45))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.8 ([#372](https://github.com/re-taro/configs/issues/372)) ([92fb221](https://github.com/re-taro/configs/commit/92fb22137c30cfa27bdaade8160ea9836519297b))
+* **deps:** update dependency eslint-plugin-storybook to v10.1.9 ([#374](https://github.com/re-taro/configs/issues/374)) ([e253d76](https://github.com/re-taro/configs/commit/e253d76603bfcb53b419f88fe60fa7060dccd558))
+* **deps:** update dependency prettier-plugin-jsdoc to v1.7.0 ([#354](https://github.com/re-taro/configs/issues/354)) ([fc4fb2f](https://github.com/re-taro/configs/commit/fc4fb2fcdeb8b8a238c9dcf1b8897046f30167a5))
+* **deps:** update dependency prettier-plugin-jsdoc to v1.8.0 ([#364](https://github.com/re-taro/configs/issues/364)) ([a8759b3](https://github.com/re-taro/configs/commit/a8759b3f8903fc7d4faeaefb551578796733ecc6))
+* **deps:** update typescript-eslint monorepo to v8.48.0 ([#347](https://github.com/re-taro/configs/issues/347)) ([bb1e08d](https://github.com/re-taro/configs/commit/bb1e08df2ff51ddd4624d1b1e90a1ddd5f29d0bd))
+* **deps:** update typescript-eslint monorepo to v8.48.1 ([#357](https://github.com/re-taro/configs/issues/357)) ([ea7d567](https://github.com/re-taro/configs/commit/ea7d5670aa1314c0408c84e790149e7fa8abbf42))
+* **deps:** update typescript-eslint monorepo to v8.49.0 ([#366](https://github.com/re-taro/configs/issues/366)) ([8b7fc7f](https://github.com/re-taro/configs/commit/8b7fc7fa3fed6dff9ee2294c821e1960e9b7bf6a))
+* **deps:** update typescript-eslint monorepo to v8.50.0 ([#376](https://github.com/re-taro/configs/issues/376)) ([30bd5b0](https://github.com/re-taro/configs/commit/30bd5b0e72cbeff6c575a503378eb85b49d95b8e))
+* **deps:** update typescript-eslint monorepo to v8.50.1 ([#380](https://github.com/re-taro/configs/issues/380)) ([055b9b8](https://github.com/re-taro/configs/commit/055b9b841fc375672972e7ed30262fca696c49ca))
+
 ## [1.4.1](https://github.com/re-taro/configs/compare/v1.4.0...v1.4.1) (2025-11-22)
 
 
