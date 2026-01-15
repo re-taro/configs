@@ -29,7 +29,7 @@ importers:
         version: 0.0.4
       '@re-taro/configs':
         specifier: file:.
-        version: file:(131751354db41e2d8254eb21ef6a66b7)
+        version: file:(645f353798a8af5f4c73c0ca14c76615)
       '@types/eslint-plugin-jsx-a11y':
         specifier: 6.10.1
         version: 6.10.1
@@ -94,8 +94,8 @@ importers:
         specifier: 2.3.0
         version: 2.3.0(eslint@9.37.0)
       globals:
-        specifier: 16.5.0
-        version: 16.5.0
+        specifier: 17.0.0
+        version: 17.0.0
       pnpm:
         specifier: 10.28.0
         version: 10.28.0
@@ -694,7 +694,7 @@ packages:
       eslint-plugin-storybook: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^9.0.0 || ^10.0.0
       eslint-plugin-unicorn: ^57.0.0 || ^58.0.0 || ^59.0.0 || ^61.0.0
       eslint-plugin-unused-imports: ^4.0.0
-      globals: ^14.0.0 || ^15.0.0 || ^16.0.0
+      globals: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
       prettier: ^3.6.0
       prettier-plugin-jsdoc: ^1.0.0
       prettier-plugin-pkg: ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0
@@ -1822,6 +1822,10 @@ packages:
 
   globals@16.5.0:
     resolution: {integrity: sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==}
+    engines: {node: '>=18'}
+
+  globals@17.0.0:
+    resolution: {integrity: sha512-gv5BeD2EssA793rlFWVPMMCqefTlpusw6/2TbAVMy0FzcG8wKJn4O+NqJ4+XWmmwrayJgw5TzrmWjFgmz1XPqw==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -3214,7 +3218,7 @@ snapshots:
     dependencies:
       oxc-parser: 0.74.0
 
-  '@re-taro/configs@file:(131751354db41e2d8254eb21ef6a66b7)':
+  '@re-taro/configs@file:(645f353798a8af5f4c73c0ca14c76615)':
     dependencies:
       '@eslint/css': 0.14.0
       '@eslint/js': 9.37.0
@@ -3236,7 +3240,7 @@ snapshots:
       eslint-plugin-storybook: 10.1.11(eslint@9.37.0)(storybook@9.0.8(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.9.3)
       eslint-plugin-unicorn: 61.0.2(eslint@9.37.0)
       eslint-plugin-unused-imports: 4.3.0(@typescript-eslint/eslint-plugin@8.53.0(@typescript-eslint/parser@8.53.0(eslint@9.37.0)(typescript@5.9.3))(eslint@9.37.0)(typescript@5.9.3))(eslint@9.37.0)
-      globals: 16.5.0
+      globals: 17.0.0
       prettier-plugin-jsdoc: 1.8.0(prettier@3.6.2)
       prettier-plugin-pkg: 0.18.1(prettier@3.6.2)
       prettier-plugin-sort-json: 4.1.1(prettier@3.6.2)
@@ -4501,6 +4505,8 @@ snapshots:
   globals@15.15.0: {}
 
   globals@16.5.0: {}
+
+  globals@17.0.0: {}
 
   globalthis@1.0.4:
     dependencies:
